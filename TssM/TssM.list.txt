@@ -1,0 +1,1351 @@
+TaxID,Organism,TssM,AsaB,TssJ
+2686015;Acinetobacter sp. 105-3;0;0;0
+1646498;Acinetobacter sp. TTH0-4;0;0;0
+1458926;Acinetobacter baumannii LY9;1;1;0
+1221263;Acinetobacter baumannii AB_2009-04-01-7;1;1;0
+1315162;Acinetobacter baumannii TG22194;1;1;0
+1310881;Acinetobacter baumannii 25253_7;1;1;0
+525244;Acinetobacter sp. ATCC 27244;0;0;0
+2749438;Acinetobacter sp. SwsAc5;1;1;0
+1310915;Acinetobacter baumannii 25766_1;0;1;0
+1217709;Acinetobacter sp. NIPH 713;1;1;0
+1310818;Acinetobacter baumannii 121738;0;0;0
+1217673;Acinetobacter pittii ANC 3678;0;0;0
+1221269;Acinetobacter baumannii AB_909-01-7;1;1;0
+1398951;Acinetobacter baumannii UH12208;1;1;0
+1315168;Acinetobacter baumannii TG22214;1;1;0
+1221287;Acinetobacter baumannii AB_TG27339;0;0;0
+1217697;Acinetobacter sp. NIPH 1847;1;1;0
+1217703;Acinetobacter sp. ANC 4105;1;1;0
+1310865;Acinetobacter baumannii 25307_1;1;1;0
+1310812;Acinetobacter baumannii 1552389;1;1;0
+1310986;Acinetobacter baumannii 44327_2;1;1;0
+1960941;Acinetobacter sp. ANC 4945;1;0;0
+1086014;Acinetobacter genomosp. 3 str. D499;0;0;0
+1401639;Acinetobacter baumannii NCGM 237;1;1;0
+1310646;Acinetobacter baumannii 1462234;1;1;0
+710095;Acinetobacter baumannii AB058;1;1;0
+1977874;Acinetobacter sp. ANC 3832;1;1;0
+2608387;Acinetobacter sp. AB118710;1;1;0
+903922;Acinetobacter baumannii Naval-2;1;1;0
+2601068;Acinetobacter sp. YH12072;0;0;0
+2601086;Acinetobacter sp. YH12097;1;1;0
+2601112;Acinetobacter sp. YH12127;0;0;0
+2601165;Acinetobacter sp. YH12238;0;0;0
+2609146;Acinetobacter sp. TUM15371;0;0;0
+2820674;;1;1;0
+1310736;Acinetobacter baumannii 233846;0;0;0
+1144674;Acinetobacter sp. CIP A162;0;0;0
+1310741;Acinetobacter baumannii 73736;1;1;0
+2601062;Acinetobacter sp. YH12064;1;1;0
+903928;Acinetobacter sp. OIFC021;1;1;0
+2601015;Acinetobacter sp. Q278-1;1;0;0
+2601181;Acinetobacter sp. YH16032;0;0;0
+1311024;Acinetobacter baumannii 25493_10;1;1;0
+1673609;Acinetobacter albensis Krizova et al. 2015;0;0;0
+2601118;Acinetobacter sp. YH12134;1;1;0
+2485131;Acinetobacter sp. BIGb0102;1;1;0
+1310593;Acinetobacter baumannii 796380-2102;1;0;0
+1217636;Acinetobacter baumannii NIPH 528;1;1;0
+1100842;Acinetobacter baumannii TYTH-2;1;1;0
+1217641;Acinetobacter baumannii NIPH 615;0;0;0
+1398987;Acinetobacter baumannii UH8807;0;0;0
+1221251;Acinetobacter baumannii AB_1766_8;1;1;0
+1315150;Acinetobacter baumannii TG20277;1;1;0
+1398969;Acinetobacter baumannii UH2907;0;0;0
+592014;Acinetobacter baumannii 6013113;1;1;0
+1509403;Acinetobacter sp. HR7;0;0;0
+436717;Acinetobacter oleivorans DR1;0;1;0
+1310577;Acinetobacter baumannii 532413;1;1;0
+1310820;Acinetobacter baumannii 323408;1;1;0
+1310599;Acinetobacter baumannii 781407;0;0;0
+1310857;Acinetobacter baumannii 24845_3;1;1;0
+2730922;Acinetobacter sp. J00019;0;0;0
+2777954;Acinetobacter sp. Res13-Abat-PEC14-P4-01;1;1;0
+1398963;Acinetobacter baumannii UH19908;1;1;0
+1116235;Acinetobacter baumannii AB5256;1;1;0
+1785092;Acinetobacter sp. NRRL B-65365;1;1;0
+1311111;Acinetobacter baumannii 25569_4;0;1;0
+903910;Acinetobacter baumannii OIFC110;1;1;0
+1311085;Acinetobacter baumannii 44298_8;1;1;0
+2601157;Acinetobacter sp. YH12226;1;1;0
+2601120;Acinetobacter sp. YH12136;0;0;0
+1310797;Acinetobacter baumannii 1428368;1;1;0
+1310603;Acinetobacter sp. 1294596;1;1;0
+1310674;Acinetobacter baumannii 1546444;1;1;0
+1197884;Acinetobacter venetianus VE-C3;1;1;0
+1310779;Acinetobacter sp. 1424608;0;0;0
+2529838;Acinetobacter sp. ANC 4177;1;1;0
+2601027;Acinetobacter sp. YH01011;0;0;0
+2601050;Acinetobacter sp. YH12043;0;0;0
+1311016;Acinetobacter baumannii 25493_2;1;1;0
+1310609;Acinetobacter sp. 1289694;0;0;0
+1310773;Acinetobacter sp. 883425;0;0;0
+2420301;Acinetobacter sp. FDAARGOS_494;1;1;0
+2069438;Acinetobacter sp. MB5;1;0;0
+480119;Acinetobacter baumannii AB0057;0;1;0
+1409927;Acinetobacter baumannii MRSN 7339;1;1;0
+1221300;Acinetobacter johnsonii TG19605;1;1;0
+1221294;Acinetobacter calcoaceticus TG19588;1;1;0
+2601202;Acinetobacter sp. YH1901147;0;0;0
+1339229;Acinetobacter sp. ZOR0008;1;1;0
+1310801;Acinetobacter baumannii 339786;1;1;0
+1217710;Acinetobacter sp. NIPH 899;1;1;0
+1310556;Acinetobacter baumannii 17534;1;0;0
+1310898;Acinetobacter baumannii 45002_4;1;1;0
+1398948;Acinetobacter baumannii UH10107;1;1;0
+1315171;Acinetobacter baumannii TG27295;1;1;0
+1221270;Acinetobacter baumannii AB_909-02-7;1;1;0
+1279013;Acinetobacter baumannii PR07;0;0;0
+1217660;Acinetobacter indicus ANC 4215;0;0;0
+1561217;Acinetobacter sp. A47;0;1;0
+1310892;Acinetobacter baumannii 44895_8;1;1;0
+1310906;Acinetobacter sp. 25977_2;0;0;0
+1310971;Acinetobacter baumannii 25750_7;0;1;0
+992402;Acinetobacter baumannii ABNIH1;1;1;0
+2743575;Acinetobacter sp. NEB 394;1;1;0
+1094481;Acinetobacter baumannii ABNIH17;1;0;0
+1310725;Acinetobacter baumannii 1062314;1;1;0
+1310752;Acinetobacter baumannii 1293320;0;0;0
+1977883;Acinetobacter sp. ANC 3903;1;1;0
+1310628;Acinetobacter baumannii 1267820;0;0;0
+1311040;Acinetobacter baumannii 44362_6;1;1;0
+1311037;Acinetobacter baumannii 44362_3;1;1;0
+2601071;Acinetobacter sp. YH12076;1;1;0
+2601192;Acinetobacter sp. YH16053;1;1;0
+1843371;Acinetobacter guerrae Carvalheira et al. 2020;1;1;0
+2609155;Acinetobacter sp. TUM15512;1;1;0
+1310758;Acinetobacter baumannii 1266220;1;1;0
+1310655;Acinetobacter baumannii 1277411;1;1;0
+1310622;Acinetobacter baumannii 1035119;1;1;0
+2601095;Acinetobacter sp. YH12108;0;0;0
+2601101;Acinetobacter sp. YH12114;1;1;0
+2601176;Acinetobacter sp. YH12251;1;1;0
+1216295;Acinetobacter baumannii 53264;1;1;0
+903931;Acinetobacter baumannii WC-A-92;0;0;0
+2601198;Acinetobacter sp. YH1901130;1;0;0
+1343074;Acinetobacter baumannii CI79;1;1;0
+575565;Acinetobacter sp. SH024;0;0;0
+1217658;Acinetobacter gyllenbergii NIPH 230;0;1;0
+1310833;Acinetobacter sp. 796380-1375;0;0;0
+1310844;Acinetobacter baumannii 24860_10;1;1;0
+1310564;Acinetobacter baumannii 1043794;0;0;0
+2810070;Acinetobacter sp. Colony158;0;0;0
+1310949;Acinetobacter baumannii 24975_5;1;1;0
+1315149;Acinetobacter baumannii TG2014;1;0;0
+1398970;Acinetobacter baumannii UH3807;0;0;0
+2777947;Acinetobacter sp. Res13-Abat-PEC07-P2-02;1;1;0
+1221248;Acinetobacter baumannii AB_1595-8;1;1;0
+1310580;Acinetobacter baumannii 1297;1;1;0
+1217652;Acinetobacter brisouii ANC 4119;0;0;0
+1310839;Acinetobacter baumannii 24860_5;1;1;0
+1209355;Acinetobacter sp. MDS7A;0;0;0
+1310943;Acinetobacter baumannii 25935_9;1;1;0
+1310934;Acinetobacter baumannii 25691_10;1;1;0
+1315143;Acinetobacter baumannii TG15239;1;0;0
+1315134;Acinetobacter baumannii TG00314;1;1;0
+1380368;Acinetobacter sp. UNC436CL71CviS28;1;1;0
+1400867;Acinetobacter baumannii ZW85-1;1;1;0
+2420312;Acinetobacter sp. FDAARGOS_541;0;0;0
+2601139;Acinetobacter sp. YH12200;1;1;0
+1311072;Acinetobacter baumannii 26016_5;0;1;0
+1311108;Acinetobacter baumannii 25569_1;1;1;0
+2601034;Acinetobacter sp. YH01020;1;1;0
+903909;Acinetobacter baumannii Naval-83;1;0;0
+2601043;Acinetobacter sp. YH12027;1;1;0
+1310760;Acinetobacter baumannii 1406589;0;1;0
+1310683;Acinetobacter sp. 1566109;0;0;0
+1311078;Acinetobacter baumannii 44298_1;1;1;0
+2601144;Acinetobacter sp. YH12208;0;0;0
+2601133;Acinetobacter sp. YH12153;0;0;0
+2601049;Acinetobacter sp. YH12041;1;1;0
+903903;Acinetobacter baumannii OIFC180;1;1;0
+1311096;Acinetobacter baumannii 45075_9;1;1;0
+2004644;Acinetobacter sp. WCHA45;0;0;0
+1310784;Acinetobacter baumannii 1007214;1;1;0
+1310610;Acinetobacter baumannii 647609;1;1;0
+2666192;Acinetobacter sp. RIT698;1;1;0
+1841507;Acinetobacter sp. AR_0276;0;0;0
+1229165;Acinetobacter apis Kim et al. 2014;0;1;0
+1278070;Acinetobacter baumannii MSP4-16;1;1;0
+2601044;Acinetobacter sp. YH12029;1;1;0
+1200350;Acinetobacter baumannii ABIsac_ColiS;1;1;0
+2601033;Acinetobacter sp. YH01019;0;0;0
+2601149;Acinetobacter sp. YH12214;0;0;0
+1311075;Acinetobacter baumannii 26016_8;1;1;0
+1310789;Acinetobacter baumannii 145660;1;1;0
+1310684;Acinetobacter baumannii 83444;0;0;0
+1310710;Acinetobacter baumannii 3390;1;1;0
+1310767;Acinetobacter baumannii 1237202;1;1;0
+2004649;Acinetobacter sp. WCHA29;0;0;0
+903904;Acinetobacter baumannii Naval-13;1;1;0
+2601039;Acinetobacter sp. YH01026;1;1;0
+1311091;Acinetobacter baumannii 45075_4;0;1;0
+903890;Acinetobacter baumannii OIFC032;1;1;0
+1311105;Acinetobacter baumannii 16553_8;1;1;0
+2529851;Acinetobacter sp. ANC 5045;0;0;0
+2601134;Acinetobacter sp. YH12154;1;1;0
+2601143;Acinetobacter sp. YH12207;0;0;0
+1310660;Acinetobacter sp. 983759;1;1;0
+1310617;Acinetobacter baumannii 1406750;1;1;0
+1310783;Acinetobacter baumannii 214216;1;0;0
+1310563;Acinetobacter baumannii 972082;0;0;0
+1310939;Acinetobacter baumannii 25935_5;1;1;0
+1217628;Acinetobacter baumannii NIPH 70;0;0;0
+1310843;Acinetobacter baumannii 24860_9;1;1;0
+1310834;Acinetobacter sp. 263903-2;0;0;0
+1398977;Acinetobacter baumannii UH6507;1;1;0
+1315139;Acinetobacter baumannii TG15234;1;1;0
+2675741;Acinetobacter sp. BEC1-S18-ESBL-01;0;0;0
+2767435;Acinetobacter sp. S54;0;0;0
+1310569;Acinetobacter baumannii 1043903;1;1;0
+1310933;Acinetobacter baumannii 25691_9;1;1;0
+1310944;Acinetobacter baumannii 25935_10;1;1;0
+575586;Acinetobacter johnsonii SH046;1;1;0
+1217655;Acinetobacter guillouiae CIP 63.46;1;1;0
+1310587;Acinetobacter baumannii 947299;1;1;0
+1221245;Acinetobacter baumannii AB_1582-8;1;1;0
+1914307;Acinetobacter sp. LCT-H3;1;1;0
+1977884;Acinetobacter sp. ANC 4204;1;1;0
+1310755;Acinetobacter baumannii 628418;1;1;0
+1310722;Acinetobacter baumannii 825610;1;1;0
+1094486;Acinetobacter baumannii ABNIH22;1;0;0
+2601195;Acinetobacter sp. YH16057;1;1;0
+1071390;Acinetobacter sp. NBRC 100985;1;1;0
+2601076;Acinetobacter sp. YH12083;1;1;0
+2601098;Acinetobacter sp. YH12111;1;1;0
+1311047;Acinetobacter baumannii 25878_3;1;1;0
+2785295;Acinetobacter sp. SK-43;0;0;0
+2609152;Acinetobacter sp. TUM15383;0;0;0
+1310625;Acinetobacter baumannii 496487;1;0;0
+1310652;Acinetobacter sp. 1475718;0;0;0
+1310728;Acinetobacter sp. 1245593;0;0;0
+1455315;Acinetobacter baumannii LAC-4;0;0;0
+1353941;Acinetobacter harbinensis Li et al. 2014;1;1;0
+1311137;Acinetobacter baumannii 42057_5;0;1;0
+903936;Acinetobacter baumannii Naval-78;1;1;0
+1501691;Acinetobacter sp. YZS-X1-1;1;1;0
+2601171;Acinetobacter sp. YH12245;0;0;0
+2601106;Acinetobacter sp. YH12119;1;1;0
+2601092;Acinetobacter sp. YH12103;0;0;0
+1675902;Acinetobacter sp. VT 511;1;1;0
+1221293;Acinetobacter calcoaceticus TG19585;1;1;0
+1398945;Acinetobacter baumannii UH0807;1;1;0
+1221307;Acinetobacter lwoffii TG19636;0;0;0
+1310992;Acinetobacter baumannii 44327_8;1;1;0
+1310806;Acinetobacter baumannii 1505311;0;0;0
+2777978;Acinetobacter sp. FL51;1;1;0
+1221277;Acinetobacter baumannii AB_TG2026;1;1;0
+1315176;Acinetobacter baumannii TG27319;1;1;0
+1221299;Acinetobacter haemolyticus TG21157;0;0;0
+2419603;Acinetobacter sp. WCHAc060012;1;1;0
+1310976;Acinetobacter baumannii 44467_2;1;1;0
+1310901;Acinetobacter baumannii 45002_7;1;1;0
+1960825;Acinetobacter sp. MF4642;1;1;0
+992405;Acinetobacter baumannii ABNIH4;1;1;0
+1311774;Acinetobacter genomosp. 3 str. ATCC 19004;0;0;0
+1120927;Acinetobacter tandoii CIP 107469 = DSM 14970;1;1;0
+2601127;Acinetobacter sp. YH12143;0;0;0
+2601150;Acinetobacter sp. YH12216;1;1;0
+1311082;Acinetobacter baumannii 44298_5;1;1;0
+2529835;Acinetobacter sp. ANC 3781;1;1;0
+1311116;Acinetobacter baumannii 25569_9;1;1;0
+2004650;"Acinetobacter chinensis" Hu et al. 2019;1;1;0
+1310673;Acinetobacter baumannii 1499986;1;0;0
+1310604;Acinetobacter baumannii 984213;0;1;0
+1310790;Acinetobacter sp. 1179249;1;1;0
+1311066;Acinetobacter baumannii 44839_9;1;1;0
+2529848;Acinetobacter sp. ANC 4779;1;1;0
+2601057;Acinetobacter sp. YH12057;1;1;0
+1311088;Acinetobacter baumannii 45075_1;0;1;0
+2601020;Acinetobacter sp. YH01004;0;0;0
+903889;Acinetobacter baumannii OIFC137;1;1;0
+1310697;Acinetobacter baumannii 21072;0;0;0
+2018564;Acinetobacter sp. YT-02;0;0;0
+1310703;Acinetobacter baumannii 1417041;1;1;0
+1217986;Acinetobacter haemolyticus NIPH 261;0;0;0
+1310679;Acinetobacter baumannii 1552865;1;1;0
+2213016;Acinetobacter sp. WCHAc060042;1;1;0
+1217646;Acinetobacter baumannii NIPH 24;1;1;0
+1217631;Acinetobacter baumannii NIPH 290;0;0;0
+1100845;Acinetobacter baumannii TYTH-5;0;0;0
+1310594;Acinetobacter baumannii 653020;1;1;0
+1310920;Acinetobacter baumannii 25766_6;1;1;0
+1315157;Acinetobacter baumannii TG22146;1;1;0
+1221256;Acinetobacter baumannii AB_2008-15-45;1;1;0
+1398980;Acinetobacter baumannii UH7607;1;1;0
+1351817;Acinetobacter baumannii 1605;1;1;0
+2707340;Acinetobacter sp. EKM10A;0;1;0
+1458919;Acinetobacter baumannii LY2;0;0;0
+1310850;Acinetobacter baumannii 24812_6;1;1;0
+1310827;Acinetobacter baumannii 1262761-105;1;1;0
+1346792;Acinetobacter baumannii AB-HKU3-08;1;1;0
+1310570;Acinetobacter baumannii 1046051;1;1;0
+1398964;Acinetobacter baumannii UH20108;0;0;0
+2777953;Acinetobacter sp. Res13-Abat-PEC13-P2-01;1;1;0
+1222031;Acinetobacter baumannii AB1H8;1;1;0
+1977873;Acinetobacter sp. ANC 3813;0;1;0
+1310636;Acinetobacter baumannii 1429530;0;0;0
+1310641;Acinetobacter baumannii 1440422;0;0;0
+1094471;Acinetobacter baumannii ABNIH7;1;1;0
+2601162;Acinetobacter sp. YH12235;0;0;0
+2601115;Acinetobacter sp. YH12131;0;1;0
+2601081;Acinetobacter sp. YH12090;1;1;0
+1311029;Acinetobacter baumannii 44437_5;1;1;0
+1311124;Acinetobacter baumannii 25442_7;1;1;0
+2601018;Acinetobacter sp. YH01002;1;1;0
+903925;Acinetobacter baumannii WC-A-694;1;1;0
+2609141;Acinetobacter sp. TUM15131;0;1;0
+2609136;Acinetobacter sp. TUM15099;0;0;0
+2662362;Acinetobacter sp. dk386;0;0;0
+1310746;Acinetobacter baumannii 1287985;1;1;0
+1310731;Acinetobacter baumannii 1178044;1;1;0
+1144673;Acinetobacter sp. CIP 64.7;0;0;0
+1977879;Acinetobacter sp. ANC 4169;1;1;0
+405416;Acinetobacter baumannii ACICU;1;1;0
+1311023;Acinetobacter baumannii 25493_9;1;1;0
+2601168;Acinetobacter sp. YH12242;0;0;0
+2601186;Acinetobacter sp. YH16042;1;1;0
+2601065;Acinetobacter sp. YH12069;1;1;0
+945555;Acinetobacter baumannii strain WM99c;1;1;0
+1458921;Acinetobacter baumannii LY4;1;0;0
+710648;Acinetobacter sp. Tol 5;0;1;0
+1315165;Acinetobacter baumannii TG22202;1;1;0
+1221264;Acinetobacter baumannii AB_2009-04-02-7;1;1;0
+1310868;Acinetobacter baumannii 25307_4;1;1;0
+1217674;Acinetobacter radioresistens NIPH 2130;1;1;0
+1860097;Acinetobacter sp. YK3;1;1;0
+1310965;Acinetobacter baumannii 25750_1;1;0;0
+1310912;Acinetobacter sp. 25977_8;0;0;0
+525243;Acinetobacter baumannii 6013150;1;1;0
+1310886;Acinetobacter baumannii 44895_2;0;1;0
+1221280;Acinetobacter baumannii AB_TG2031;1;0;0
+1398956;Acinetobacter baumannii UH14508;1;1;0
+1315181;Acinetobacter baumannii TG27391;0;0;0
+1310981;Acinetobacter baumannii 44467_7;1;1;0
+1310815;Acinetobacter baumannii 756476;1;1;0
+1310862;Acinetobacter baumannii 24845_8;1;1;0
+1310918;Acinetobacter baumannii 25766_4;1;1;0
+1217704;Acinetobacter sp. NIPH 284;0;0;0
+1217690;Acinetobacter calcoaceticus ANC 3811;1;1;0
+2653125;Acinetobacter sp. 8I-beige;1;1;0
+2601016;Acinetobacter sp. Q66-1;1;1;0
+2601182;Acinetobacter sp. YH16037;1;1;0
+2601061;Acinetobacter sp. YH12063;1;1;0
+1311027;Acinetobacter baumannii 44437_3;1;1;0
+1310638;Acinetobacter baumannii 1437282;1;1;0
+1310742;Acinetobacter baumannii 1188188;0;1;0
+1310735;Acinetobacter baumannii 737393;1;0;0
+2302372;Acinetobacter sp. S131434;1;1;0
+2609138;Acinetobacter sp. TUM15104;0;0;0
+1388759;Acinetobacter baumannii A13;1;1;0
+2609145;Acinetobacter sp. TUM15366;0;0;0
+1776742;Acinetobacter genomosp. 20;1;1;0
+2609132;Acinetobacter sp. TUM15051;1;1;0
+2601188;Acinetobacter sp. YH16049;0;0;0
+2601166;Acinetobacter sp. YH12239;1;1;0
+2601085;Acinetobacter sp. YH12096;1;1;0
+1808001;Acinetobacter sp. LoGeW2-3;1;1;0
+2601111;Acinetobacter sp. YH12126;1;1;0
+710096;Acinetobacter baumannii AB059;1;0;0
+1977877;Acinetobacter sp. ANC 5054;1;1;0
+1094475;Acinetobacter baumannii ABNIH11;1;0;0
+1310645;Acinetobacter baumannii 1461963;0;0;0
+1310748;Acinetobacter baumannii 846928;1;1;0
+1507807;"Acinetobacter idrijaensis" Campos-Guillen et al. 2014;0;0;0
+1310888;Acinetobacter baumannii 44895_4;0;1;0
+1217694;Acinetobacter sp. CIP 64.2;0;0;0
+1217700;Acinetobacter sp. CIP 70.18;1;1;0
+1310811;Acinetobacter baumannii 458282;1;1;0
+1451233;Acinetobacter soli TCM341;0;0;0
+1310985;Acinetobacter baumannii 44327_1;1;1;0
+1183155;Acinetobacter nosocomialis Ab22222;0;0;0
+1310866;Acinetobacter baumannii 25307_2;1;1;0
+1315185;Acinetobacter baumannii TG27411;1;1;0
+1221310;Acinetobacter radioresistens TG02010;1;1;0
+1398952;Acinetobacter baumannii UH12308;1;1;0
+1221284;Acinetobacter baumannii AB_TG27327;1;1;0
+1310961;Acinetobacter baumannii 25561_7;1;1;0
+1310882;Acinetobacter baumannii 25253_8;1;1;0
+1310916;Acinetobacter baumannii 25766_2;1;1;0
+1217670;Acinetobacter nosocomialis NIPH 2119;1;1;0
+1221260;Acinetobacter baumannii AB_2008-15-71;1;1;0
+1398958;Acinetobacter baumannii UH16008;1;1;0
+1315161;Acinetobacter baumannii TG22192;1;1;0
+2731251;Acinetobacter sp. ANC 5414;1;1;0
+1458925;Acinetobacter baumannii LY8;1;1;0
+2420302;Acinetobacter sp. FDAARGOS_495;0;0;0
+1310707;Acinetobacter baumannii 318814;1;1;0
+1310693;Acinetobacter baumannii 655378;0;0;0
+1310770;Acinetobacter baumannii 1295549;1;1;0
+2601053;Acinetobacter sp. YH12047;0;0;0
+1311118;Acinetobacter baumannii 25442_1;1;1;0
+2601024;Acinetobacter sp. YH01008;1;0;0
+903919;Acinetobacter baumannii WC-348;1;1;0
+2692137;Acinetobacter sp. 18QD2AZ41W;1;1;0
+2601129;Acinetobacter sp. YH12145;1;1;0
+1311015;Acinetobacter baumannii 25493_1;1;1;0
+1310677;Acinetobacter sp. 766875;1;1;0
+1217988;Acinetobacter schindleri CCUG 45560;1;1;0
+1310794;Acinetobacter baumannii 303002;1;1;0
+1310600;Acinetobacter baumannii 1289546;1;1;0
+1310699;Acinetobacter baumannii 1575710;1;1;0
+1311112;Acinetobacter baumannii 25569_5;1;1;0
+903913;Acinetobacter baumannii WC-692;1;1;0
+2781976;Acinetobacter sp. Ac-14;0;0;0
+2601059;Acinetobacter sp. YH12061;1;1;0
+2529846;Acinetobacter sp. ANC 4635;1;1;0
+2601123;Acinetobacter sp. YH12139;1;1;0
+1311068;Acinetobacter baumannii 26016_1;1;1;0
+2563897;Acinetobacter sp. 10FS3-1;0;0;0
+2601154;Acinetobacter sp. YH12222;1;1;0
+1116236;Acinetobacter baumannii AB5711;1;1;0
+871585;Acinetobacter calcoaceticus PHEA-2;1;1;0
+2836181;;1;1;0
+1221258;Acinetobacter baumannii AB_2008-15-69;1;1;0
+1315159;Acinetobacter baumannii TG22150;1;1;0
+1398960;Acinetobacter baumannii UH16208;1;1;0
+1310574;Acinetobacter baumannii 1042969-1265;1;1;0
+1310854;Acinetobacter baumannii 24812_10;1;1;0
+1217648;Acinetobacter beijerinckii CIP 110307;1;1;0
+1149135;Acinetobacter baumannii 107m;1;1;0
+1219383;Acinetobacter boissieri Alvarez-Perez et al. 2013;1;1;0
+346222;Acinetobacter hebeiensis;1;1;0
+1775558;Acinetobacter sp. CFCC 11171;1;1;0
+1805633;Acinetobacter sp. SFA;1;0;0
+2083753;Acinetobacter sp. KU 013TH;1;1;0
+1398984;Acinetobacter baumannii UH8107;1;0;0
+1221252;Acinetobacter baumannii AB_2007-09-110-01-7;0;0;0
+1310924;Acinetobacter baumannii 25766_10;1;1;0
+1310953;Acinetobacter baumannii 24975_9;1;1;0
+1217642;Acinetobacter baumannii NIPH 1362;0;1;0
+1310829;Acinetobacter baumannii 1276470-132;1;1;0
+1310590;Acinetobacter baumannii 1040094;1;0;0
+1761742;Acinetobacter sp. yr461;1;1;0
+1100841;Acinetobacter baumannii TYTH-1;1;1;0
+1217635;Acinetobacter baumannii NIPH 527;1;1;0
+2601175;Acinetobacter sp. YH12250;1;1;0
+2601096;Acinetobacter sp. YH12109;0;1;0
+2601102;Acinetobacter sp. YH12115;1;1;0
+1311144;Acinetobacter baumannii 45052_4;1;1;0
+903945;Acinetobacter sp. WC-743;1;1;0
+2601078;Acinetobacter sp. YH12086;1;1;0
+903932;Acinetobacter baumannii OIFC065;0;1;0
+2053288;Acinetobacter sp. ANC 5318;0;1;0
+1094488;Acinetobacter baumannii ABNIH24;1;0;0
+1310621;Acinetobacter sp. 869535;1;1;0
+1310656;Acinetobacter baumannii 1146103;1;1;0
+40373;Acinetobacter CIP-A165;0;0;0
+2609156;Acinetobacter sp. TUM15521;1;1;0
+2665161;Acinetobacter sp. YIM 103518;0;0;0
+2293834;Acinetobacter sp. SWAC57;1;1;0
+981336;Acinetobacter ursingii CIP 107286 = DSM 16037;0;0;0
+2601108;Acinetobacter sp. YH12123;1;1;0
+1311043;Acinetobacter baumannii 44362_9;1;1;0
+2601191;Acinetobacter sp. YH16052;1;1;0
+2601072;Acinetobacter sp. YH12079;1;1;0
+1977880;Acinetobacter sp. ANC 4218;0;0;0
+1310751;Acinetobacter baumannii 1022959;1;1;0
+1144664;Acinetobacter sp. CIP 102129;0;0;0
+1094482;Acinetobacter baumannii ABNIH18;1;1;0
+2060938;Acinetobacter sp. B51(2017);0;0;0
+1310808;Acinetobacter baumannii 470922;1;1;0
+1217663;Acinetobacter johnsonii CIP 64.6;1;0;0
+1310972;Acinetobacter baumannii 25750_8;1;1;0
+1310905;Acinetobacter sp. 25977_1;0;0;0
+1221309;Acinetobacter pittii TG6411;0;0;0
+1315172;Acinetobacter baumannii TG27299;1;1;0
+1661746;Acinetobacter sp. C15;1;1;0
+1221273;Acinetobacter baumannii AB_TG19617;1;1;0
+1310802;Acinetobacter baumannii 11126;1;1;0
+1609919;Acinetobacter sp. LMB-5;0;0;0
+1310875;Acinetobacter baumannii 25253_1;1;1;0
+1310555;Acinetobacter baumannii 993520;1;1;0
+1310978;Acinetobacter baumannii 44467_4;1;1;0
+2601201;Acinetobacter sp. YH1901141;0;0;0
+1221303;Acinetobacter sp. TG19627;1;1;0
+1315178;Acinetobacter baumannii TG27379;1;1;0
+1221297;Acinetobacter haemolyticus TG19599;0;0;0
+1221279;Acinetobacter baumannii AB_TG2030;1;1;0
+1409924;Acinetobacter baumannii MRSN 3942;0;0;0
+1120929;Acinetobacter towneri CIP 107472 = DSM 14962;1;0;0
+2712220;Acinetobacter sp. GFQ9D192M;0;0;0
+889738;Acinetobacter baumannii MDR-TJ;1;1;0
+2004647;Acinetobacter sp. WCHAc010052;0;0;0
+1310769;Acinetobacter baumannii 1276470-86;0;1;0
+1310787;Acinetobacter baumannii 70136;1;1;0
+1310613;Acinetobacter baumannii 1295743;0;0;0
+2601130;Acinetobacter sp. YH12147;1;1;0
+2601147;Acinetobacter sp. YH12211;0;0;0
+903894;Acinetobacter baumannii OIFC189;1;1;0
+1311101;Acinetobacter baumannii 16553_4;1;0;0
+903900;Acinetobacter radioresistens WC-A-157;0;0;0
+1311095;Acinetobacter baumannii 45075_8;1;1;0
+1310680;Acinetobacter sp. 1239920;1;1;0
+1310763;Acinetobacter baumannii 213697;0;1;0
+1310619;Acinetobacter baumannii 1419130;0;0;0
+1311071;Acinetobacter baumannii 26016_4;1;1;0
+1311006;Acinetobacter baumannii 25681_2;1;0;0
+2601040;Acinetobacter sp. YH12021;1;0;0
+2605272;Acinetobacter sp. EC24;0;0;0
+2601037;Acinetobacter sp. YH01024;1;1;0
+1242245;Acinetobacter johnsonii XBB1;1;1;0
+2183931;Acinetobacter sp. 3664;1;1;0
+1315140;Acinetobacter baumannii TG15236;1;0;0
+1398979;Acinetobacter baumannii UH7007;1;0;0
+1217651;Acinetobacter bereziniae NIPH 3;1;1;0
+1310583;Acinetobacter baumannii 1051176;1;1;0
+1310940;Acinetobacter baumannii 25935_6;1;1;0
+1293574;Acinetobacter baumannii 48055;1;1;0
+1096997;Acinetobacter baumannii BJAB0868;1;1;0
+1398973;Acinetobacter baumannii UH5307;1;1;0
+281375;Acinetobacter marinus;0;0;0
+2735132;Acinetobacter sp. AC1-2;1;1;0
+2777944;Acinetobacter sp. Res13-Abat-PEC02-P3-01;1;1;0
+1310589;Acinetobacter baumannii 929679-2095;1;1;0
+575588;Acinetobacter lwoffii SH145;0;0;0
+1310567;Acinetobacter baumannii 1046674;1;1;0
+1221246;Acinetobacter baumannii AB_1583-8;1;1;0
+1398990;Acinetobacter baumannii UH9707;1;1;0
+2777949;Acinetobacter sp. Res13-Abat-PEC09-P3-02;1;1;0
+1315147;Acinetobacter baumannii TG2012;0;1;0
+575585;Acinetobacter calcoaceticus RUH2202;1;1;0
+1310930;Acinetobacter baumannii 25691_6;1;1;0
+1310584;Acinetobacter baumannii 23037;1;1;0
+1217656;Acinetobacter guillouiae NIPH 991;1;1;0
+1285584;Acinetobacter nosocomialis P020;1;1;0
+2479844;Acinetobacter sp. 2JN-4;1;1;0
+1398974;Acinetobacter baumannii UH5707;1;0;0
+1310560;Acinetobacter baumannii 564012;1;1;0
+1310837;Acinetobacter baumannii 24860_3;1;1;0
+1310840;Acinetobacter baumannii 24860_6;1;1;0
+2762215;Acinetobacter sp. Sa1BUA6;0;0;0
+1310614;Acinetobacter baumannii 1397084;1;1;0
+1310780;Acinetobacter baumannii 1117819;1;1;0
+1310663;Acinetobacter baumannii 1440750;0;1;0
+1310719;Acinetobacter baumannii 607805;1;0;0
+1168590;Acinetobacter baumannii Ab33333;1;1;0
+903907;Acinetobacter baumannii OIFC0162;1;1;0
+1311092;Acinetobacter baumannii 45075_5;1;0;0
+903893;Acinetobacter baumannii OIFC143;1;1;0
+1311106;Acinetobacter baumannii 16553_9;0;1;0
+2601140;Acinetobacter sp. YH12201;0;0;0
+2601137;Acinetobacter sp. YH12157;1;1;0
+1310764;Acinetobacter sp. 826659;1;1;0
+1310713;Acinetobacter baumannii 1471012;1;1;0
+1311098;Acinetobacter baumannii 16553_1;1;1;0
+2601030;Acinetobacter sp. YH01015;1;1;0
+903899;Acinetobacter baumannii IS-123;1;1;0
+2601047;Acinetobacter sp. YH12039;1;1;0
+1311076;Acinetobacter baumannii 26016_9;1;1;0
+2792607;Acinetobacter sp. ACIN00229;1;1;0
+1960826;Acinetobacter sp. MF4640;1;1;0
+1120924;Acinetobacter baylyi B2;1;1;0
+1310902;Acinetobacter baumannii 45002_8;0;1;0
+1310558;Acinetobacter baumannii 136706;1;1;0
+1310975;Acinetobacter baumannii 44467_1;1;1;0
+1217664;Acinetobacter junii CIP 64.5;0;0;0
+2545797;Acinetobacter sp. FDAARGOS_724;0;0;0
+1310878;Acinetobacter baumannii 25253_4;1;1;0
+1221274;Acinetobacter baumannii AB_TG2018;1;1;0
+1315175;Acinetobacter baumannii TG27315;1;1;0
+2609668;Acinetobacter sp. C16S1;1;1;0
+1217714;Acinetobacter sp. ANC 3789;0;0;0
+1310908;Acinetobacter sp. 25977_4;0;0;0
+1310872;Acinetobacter baumannii 25307_8;1;0;0
+1310991;Acinetobacter baumannii 44327_7;1;1;0
+1310805;Acinetobacter baumannii 1426993;1;1;0
+1221290;Acinetobacter baumannii AB_TG5064;1;1;0
+1221304;Acinetobacter sp. TG2027;1;1;0
+1398946;Acinetobacter baumannii UH1007;1;1;0
+1409923;Acinetobacter baumannii MRSN 3527;1;1;0
+348388;Acinetobacter sp. AG1;0;0;0
+1311134;Acinetobacter baumannii 42057_2;1;0;0
+903935;Acinetobacter baumannii OIFC111;0;0;0
+1839785;Acinetobacter portensis Carvalheira et al. 2020;1;0;0
+1311143;Acinetobacter baumannii 45052_3;1;1;0
+2601105;Acinetobacter sp. YH12118;0;1;0
+2601091;Acinetobacter sp. YH12102;0;0;0
+1311039;Acinetobacter baumannii 44362_5;1;1;0
+1582270;Acinetobacter populi Li et al. 2015;1;0;0
+2601172;Acinetobacter sp. YH12247;0;0;0
+1310651;Acinetobacter sp. 230853;1;1;0
+1310626;Acinetobacter sp. 21871;0;0;0
+1455316;Acinetobacter baumannii R1B;1;1;0
+1144669;Acinetobacter sp. CIP 102637;0;0;0
+2609151;Acinetobacter sp. TUM15380;0;0;0
+1397525;Acinetobacter sp. COS3;1;1;0
+1879049;Acinetobacter sp. WCHAc010034;0;0;0
+1736444;Acinetobacter sp. Root1280;1;1;0
+981331;Acinetobacter calcoaceticus CIP 81.8 = DSM 30006;1;1;0
+2601075;Acinetobacter sp. YH12082;1;1;0
+2601196;Acinetobacter sp. YH16058;1;1;0
+1311044;Acinetobacter baumannii 44362_10;1;1;0
+2601178;Acinetobacter sp. YH12254;0;0;0
+1311033;Acinetobacter baumannii 44437_9;1;1;0
+886889;Acinetobacter baumannii 3909;1;1;0
+1144663;Acinetobacter sp. CIP 102082;0;0;0
+1310721;Acinetobacter baumannii 1533268;1;1;0
+1434212;Acinetobacter baumannii MRSN 57;1;0;0
+1985874;Acinetobacter sp. ACNIH3;1;1;0
+1310756;Acinetobacter sp. 1294243;0;0;0
+1398967;Acinetobacter baumannii UH2307;1;1;0
+1398989;Acinetobacter baumannii UH9007;1;1;0
+2777950;Acinetobacter sp. Res13-Abat-PEC10-P4-01;1;1;0
+1310824;Acinetobacter sp. 1264765;0;0;0
+1217638;Acinetobacter baumannii ANC 4097;1;1;0
+1310573;Acinetobacter baumannii 18689;1;1;0
+1310929;Acinetobacter baumannii 25691_5;1;1;0
+1891969;Acinetobacter sp. AR2-3;1;1;0
+1805634;Acinetobacter sp. SFB;1;1;0
+1848935;Acinetobacter sp. Ac_3412;1;1;0
+1315154;Acinetobacter baumannii TG22110;1;1;0
+1221255;Acinetobacter baumannii AB_2008-15-34-7;1;1;0
+1398983;Acinetobacter baumannii UH7907;0;1;0
+1100846;Acinetobacter baumannii TYTH-6;1;1;0
+1310597;Acinetobacter baumannii 1247182;1;0;0
+1310859;Acinetobacter baumannii 24845_5;1;1;0
+1217645;Acinetobacter baumannii NIPH 2061;1;1;0
+1310954;Acinetobacter baumannii 24975_10;1;1;0
+1310579;Acinetobacter baumannii 58452;0;1;0
+1310923;Acinetobacter baumannii 25766_9;1;0;0
+2518625;Acinetobacter sp. WCHAc060025;1;1;0
+2420305;Acinetobacter sp. FDAARGOS_560;1;1;0
+1310777;Acinetobacter baumannii 1262761-97;1;1;0
+1310694;Acinetobacter baumannii 232184;0;0;0
+1310700;Acinetobacter baumannii 1598530;1;1;0
+1217985;Acinetobacter nosocomialis NIPH 386;0;0;0
+1310799;Acinetobacter baumannii 1494580;1;1;0
+1311012;Acinetobacter baumannii 25681_8;1;1;0
+2601159;Acinetobacter sp. YH12230;1;1;0
+1311065;Acinetobacter baumannii 44839_8;1;0;0
+2601023;Acinetobacter sp. YH01007;0;0;0
+2601054;Acinetobacter sp. YH12049;1;1;0
+2170730;Acinetobacter sp. AM;1;1;0
+1391912;Acinetobacter oleivorans CIP 110421;1;1;0
+1310607;Acinetobacter baumannii 625974;0;0;0
+1310793;Acinetobacter baumannii 98826;1;1;0
+1310670;Acinetobacter sp. 907131;0;0;0
+2601153;Acinetobacter sp. YH12219;1;1;0
+1311018;Acinetobacter baumannii 25493_4;0;1;0
+2601124;Acinetobacter sp. YH12140;1;1;0
+903914;Acinetobacter baumannii IS-58;1;1;0
+2601029;Acinetobacter sp. YH01013;1;1;0
+1311081;Acinetobacter baumannii 44298_4;1;1;0
+2529836;Acinetobacter sp. ANC 3791;0;0;0
+1311115;Acinetobacter baumannii 25569_8;1;1;0
+1224141;Acinetobacter baumannii ZWS1219;1;1;0
+1310861;Acinetobacter baumannii 24845_7;1;1;0
+1310816;Acinetobacter baumannii 1571545;0;0;0
+1217707;Acinetobacter sp. ANC 3929;1;1;0
+2749436;Acinetobacter sp. SwsAc3;1;1;0
+1221283;Acinetobacter baumannii AB_TG27323;1;1;0
+1398955;Acinetobacter baumannii UH13908;0;0;0
+2725492;Acinetobacter sp. A3;0;0;0
+1315182;Acinetobacter baumannii TG27395;1;0;0
+1310988;Acinetobacter baumannii 44327_4;1;1;0
+1217677;Acinetobacter soli NIPH 2899;1;1;0
+1310911;Acinetobacter sp. 25977_7;0;0;0
+1310885;Acinetobacter baumannii 44895_1;1;1;0
+1217699;Acinetobacter sp. CIP 110321;1;0;0
+1315166;Acinetobacter baumannii TG22204;1;1;0
+1221289;Acinetobacter sp. TG27347;0;1;0
+1330038;Acinetobacter guillouiae MSP4-18;1;1;0
+1736269;Acinetobacter sp. Leaf130;1;1;0
+557600;Acinetobacter baumannii AB307-0294;1;1;0
+1221267;Acinetobacter baumannii AB_908-13;1;1;0
+1458922;Acinetobacter baumannii LY5;1;1;0
+945556;Acinetobacter baumannii D1279779;0;0;0
+1046625;Acinetobacter lwoffii strain WJ10621;1;1;0
+1311020;Acinetobacter baumannii 25493_6;1;1;0
+2601088;Acinetobacter sp. YH12099;0;0;0
+2601066;Acinetobacter sp. YH12070;1;1;0
+2601185;Acinetobacter sp. YH16040;1;1;0
+1310732;Acinetobacter baumannii 1271651;1;1;0
+1144670;Acinetobacter sp. CIP 51.11;1;1;0
+1310745;Acinetobacter baumannii 480175;0;1;0
+1310648;Acinetobacter baumannii 110912;1;1;0
+1094478;Acinetobacter baumannii ABNIH14;1;0;0
+2609148;Acinetobacter sp. TUM15375;0;0;0
+2609135;Acinetobacter sp. TUM15071;1;1;0
+2609142;Acinetobacter sp. TUM15283;0;0;0
+2650964;Acinetobacter sp. RF15A;1;1;0
+2601116;Acinetobacter sp. YH12132;1;1;0
+2601082;Acinetobacter sp. YH12091;1;1;0
+2601161;Acinetobacter sp. YH12233;0;0;0
+903926;Acinetobacter baumannii OIFC035;1;1;0
+2708348;Acinetobacter sp. WY4;0;1;0
+1222032;Acinetobacter baumannii AB4A3;0;1;0
+1310738;Acinetobacter baumannii 273929;1;0;0
+2420307;Acinetobacter sp. FDAARGOS_515;0;0;0
+1311010;Acinetobacter baumannii 25681_6;1;1;0
+1311067;Acinetobacter baumannii 44839_10;1;1;0
+2601021;Acinetobacter sp. YH01005;1;1;0
+1311089;Acinetobacter baumannii 45075_2;1;1;0
+2529849;Acinetobacter sp. ANC 4862;0;0;0
+2601056;Acinetobacter sp. YH12054;1;1;0
+1310775;Acinetobacter baumannii 1392509;1;1;0
+1310696;Acinetobacter sp. 1592897;0;0;0
+1310702;Acinetobacter baumannii 831240;1;1;0
+1310678;Acinetobacter sp. 263903-1;1;1;0
+2601151;Acinetobacter sp. YH12217;0;0;0
+2601126;Acinetobacter sp. YH12142;1;0;0
+1311083;Acinetobacter baumannii 44298_6;1;1;0
+1311117;Acinetobacter baumannii 25569_10;1;1;0
+1310708;Acinetobacter baumannii 923118;1;1;0
+1310605;Acinetobacter baumannii 348935;0;0;0
+1310791;Acinetobacter sp. 742879;1;1;0
+1310672;Acinetobacter baumannii 554515;1;1;0
+465797;"Acinetobacter septicus" Kilic et al. 2008;0;1;0
+1310826;Acinetobacter baumannii 1195185_80;1;0;0
+1310851;Acinetobacter baumannii 24812_7;1;1;0
+1310571;Acinetobacter baumannii 1032241;1;1;0
+1346793;Acinetobacter baumannii AB-HKU3-10;0;1;0
+1398965;Acinetobacter baumannii UH2107;1;1;0
+933264;Acinetobacter baumannii strain UMB002;0;0;0
+1458918;Acinetobacter baumannii LY1;0;0;0
+1646532;Acinetobacter sp. Ag2;1;1;0
+1775557;Acinetobacter sp. CFCC 10889;0;0;0
+1848937;Acinetobacter sp. Ac_5812;1;1;0
+1100844;Acinetobacter baumannii TYTH-4;0;0;0
+1217630;Acinetobacter baumannii NIPH 201;0;1;0
+1310595;Acinetobacter baumannii 29280;0;1;0
+1217647;Acinetobacter baumannii NIPH 60;0;0;0
+1310956;Acinetobacter baumannii 25561_2;1;1;0
+466088;Acinetobacter sp. Ver3;0;0;0
+1310921;Acinetobacter baumannii 25766_7;1;1;0
+1315156;Acinetobacter baumannii TG22142;1;0;0
+1221257;Acinetobacter baumannii AB_2008-15-52;1;1;0
+1398981;Acinetobacter baumannii UH7707;1;1;0
+1310730;Acinetobacter baumannii 1207552;1;0;0
+1144672;Acinetobacter sp. CIP 56.2;1;1;0
+1310747;Acinetobacter baumannii 1095464;1;1;0
+1789224;ACCC 19936;1;1;0
+2601169;Acinetobacter sp. YH12243;0;0;0
+1311022;Acinetobacter baumannii 25493_8;1;1;0
+2601064;Acinetobacter sp. YH12068;1;1;0
+2601187;Acinetobacter sp. YH16044;1;1;0
+2601013;Acinetobacter sp. Q186-3;1;1;0
+1806892;Acinetobacter genomosp. 28;1;1;0
+2183915;Acinetobacter sp. 3636;1;1;0
+2650966;Acinetobacter sp. RF15B;1;1;0
+2609137;Acinetobacter sp. TUM15103;0;0;0
+2609140;Acinetobacter sp. TUM15113;0;1;0
+1310640;Acinetobacter baumannii 342950;1;1;0
+1094470;Acinetobacter baumannii ABNIH6;1;0;0
+1977872;Acinetobacter sp. ANC 4654;1;1;0
+1310637;Acinetobacter sp. 809848;1;1;0
+2601114;Acinetobacter sp. YH12129;1;1;0
+1311028;Acinetobacter baumannii 44437_4;1;1;0
+2601080;Acinetobacter sp. YH12089;1;1;0
+1972191;Acinetobacter sp. Cas4;0;0;0
+2601163;Acinetobacter sp. YH12236;0;0;0
+1370126;Acinetobacter baumannii DU202;1;1;0
+903924;Acinetobacter baumannii Canada BC1;1;1;0
+2601019;Acinetobacter sp. YH01003;0;0;0
+1636603;Acinetobacter sp. ACNIH1;1;1;0
+1221281;Acinetobacter baumannii AB_TG2032;1;1;0
+1398957;Acinetobacter baumannii UH15208;1;1;0
+1315180;Acinetobacter baumannii TG27387;1;1;0
+1310863;Acinetobacter baumannii 24845_9;1;1;0
+1310980;Acinetobacter baumannii 44467_6;1;1;0
+1217705;Acinetobacter sp. ANC 3862;0;0;0
+1217691;Acinetobacter pittii ANC 4050;1;1;0
+1310919;Acinetobacter baumannii 25766_5;1;0;0
+1315164;Acinetobacter baumannii TG22198;0;0;0
+1221265;Acinetobacter baumannii AB_515-8;1;1;0
+1217675;Acinetobacter schindleri NIPH 900;1;1;0
+1310869;Acinetobacter baumannii 25307_5;1;1;0
+1310913;Acinetobacter baumannii 25977_9;0;0;0
+1310887;Acinetobacter baumannii 44895_3;1;1;0
+1310964;Acinetobacter baumannii 25561_10;1;1;0
+1458920;Acinetobacter baumannii LY3;1;1;0
+1262585;Acinetobacter qingfengensis Li et al. 2014;0;0;0
+1795629;Acinetobacter sp. BMW17;1;1;0
+1431338;Acinetobacter baumannii P630;1;1;0
+2529850;Acinetobacter sp. ANC 4910;0;0;0
+1311090;Acinetobacter baumannii 45075_3;1;1;0
+2601038;Acinetobacter sp. YH01025;1;1;0
+903905;Acinetobacter baumannii IS-235;1;1;0
+2601142;Acinetobacter sp. YH12206;0;0;0
+1311009;Acinetobacter baumannii 25681_5;1;1;0
+2601135;Acinetobacter sp. YH12155;1;1;0
+1310616;Acinetobacter baumannii 400834;1;1;0
+1310782;Acinetobacter baumannii 1170863;1;0;0
+1310661;Acinetobacter baumannii 855125;1;1;0
+2601032;Acinetobacter sp. YH01018;1;1;0
+1200351;Acinetobacter baumannii ABIsac_ColiR;1;1;0
+2601045;Acinetobacter sp. YH12035;0;0;0
+1311003;Acinetobacter baumannii 44857_9;1;1;0
+2601148;Acinetobacter sp. YH12212;1;1;0
+1311074;Acinetobacter baumannii 26016_7;1;1;0
+1310788;Acinetobacter sp. 225588;0;0;0
+2004648;Acinetobacter sp. WCHA39;0;0;0
+1310685;Acinetobacter sp. 72431;0;0;0
+1310711;Acinetobacter sp. 723929;0;0;0
+1310945;Acinetobacter baumannii 24975_1;1;1;0
+1310568;Acinetobacter baumannii 916567;1;1;0
+1310932;Acinetobacter baumannii 25691_8;0;1;0
+1310586;Acinetobacter baumannii 1031433;1;1;0
+1310848;Acinetobacter baumannii 24812_4;1;1;0
+1217654;Acinetobacter calcoaceticus NIPH 13;1;1;0
+1221244;Acinetobacter baumannii AB_1536-8;1;1;0
+1315145;Acinetobacter baumannii TG15241;1;1;0
+1147131;Acinetobacter nosocomialis 28F;0;0;0
+2767434;Acinetobacter sp. S40;0;0;0
+1513354;Acinetobacter sp. MN12;0;1;0
+1310562;Acinetobacter baumannii 472237-1196;1;1;0
+1310938;Acinetobacter baumannii 25935_4;1;1;0
+1310835;Acinetobacter baumannii 24860_1;1;0;0
+1217629;Acinetobacter baumannii NIPH 80;0;1;0
+1310842;Acinetobacter baumannii 24860_8;1;1;0
+1315138;Acinetobacter baumannii TG15233;1;0;0
+1398976;Acinetobacter baumannii UH6207;0;0;0
+1310653;Acinetobacter baumannii 951631;1;0;0
+1310624;Acinetobacter baumannii 1202252;1;1;0
+1310729;Acinetobacter baumannii 23671;0;1;0
+1311136;Acinetobacter baumannii 42057_4;0;1;0
+903937;Acinetobacter baumannii AA-014;1;1;0
+1311141;Acinetobacter baumannii 45052_1;1;1;0
+1343072;Acinetobacter baumannii CI86;1;0;0
+2601107;Acinetobacter sp. YH12120;0;0;0
+2601093;Acinetobacter sp. YH12105;1;1;0
+2601170;Acinetobacter sp. YH12244;0;0;0
+1358412;Acinetobacter baumannii EGD-HP18;1;1;0
+2609153;Acinetobacter sp. TUM15429;0;0;0
+981333;Acinetobacter parvus CIP 108168 = DSM 16617;0;0;0
+2302364;Acinetobacter sp. JW;1;1;0
+1310659;Acinetobacter baumannii 1106579;0;0;0
+1561068;Acinetobacter sp. neg1;1;1;0
+1094487;Acinetobacter baumannii ABNIH23;1;0;0
+1144661;Acinetobacter sp. CIP 101934;1;1;0
+1310723;Acinetobacter sp. 1564232;0;0;0
+1310754;Acinetobacter baumannii 2887;1;1;0
+2601077;Acinetobacter sp. YH12085;1;1;0
+2053287;"Acinetobacter pseudolwoffii" Nemec et al. 2019;1;1;0
+1311046;Acinetobacter baumannii 25878_2;1;1;0
+2601099;Acinetobacter sp. YH12112;1;1;0
+1311031;Acinetobacter baumannii 44437_7;1;1;0
+992404;Acinetobacter baumannii ABNIH3;1;1;0
+1120926;Acinetobacter gerneri CIP 107464 = DSM 14967;1;1;0
+1257043;Acinetobacter ursingii ANC 3649;0;1;0
+1221276;Acinetobacter baumannii AB_TG2023;1;1;0
+1221298;Acinetobacter haemolyticus TG19602;0;0;0
+1315177;Acinetobacter baumannii TG27371;1;1;0
+1310900;Acinetobacter baumannii 45002_6;1;1;0
+1310894;Acinetobacter baumannii 44895_10;1;1;0
+1217688;Acinetobacter sp. NIPH 542;1;1;0
+1310977;Acinetobacter baumannii 44467_3;1;1;0
+1217666;Acinetobacter grimontii CIP 107470;1;1;0
+1221292;Acinetobacter baumannii TG19582;1;1;0
+1221306;Acinetobacter junii TG19608;0;0;0
+1398944;Acinetobacter baumannii UH0707;1;1;0
+1217716;Acinetobacter ursingii NIPH 706;0;0;0
+1310870;Acinetobacter baumannii 25307_6;1;1;0
+1310807;Acinetobacter baumannii 1488685;1;1;0
+651305;Acinetobacter sp. GG2;1;1;0
+992403;Acinetobacter baumannii ABNIH2;1;1;0
+400667;Acinetobacter baumannii ATCC 17978;1;1;0
+1398949;Acinetobacter baumannii UH10707;1;1;0
+1315170;Acinetobacter baumannii TG22336;1;1;0
+2419605;Acinetobacter sp. WCHAc060007;1;1;0
+509173;Acinetobacter baumannii AYE;1;0;0
+1221271;Acinetobacter baumannii AB_909-05;1;0;0
+1310970;Acinetobacter baumannii 25750_6;1;1;0
+1310893;Acinetobacter baumannii 44895_9;1;1;0
+1310907;Acinetobacter sp. 25977_3;0;0;0
+2601203;Acinetobacter sp. YH1901152;0;0;0
+1398943;Acinetobacter baumannii UH0207;0;0;0
+1221301;Acinetobacter johnsonii TG19625;1;1;0
+1221295;Acinetobacter calcoaceticus TG19593;1;1;0
+1310800;Acinetobacter sp. 1000160;1;0;0
+1310877;Acinetobacter baumannii 25253_3;1;1;0
+1310899;Acinetobacter baumannii 45002_5;1;1;0
+1310557;Acinetobacter baumannii 959073;1;1;0
+1217711;Acinetobacter sp. NIPH 236;0;0;0
+1409926;Acinetobacter baumannii MRSN 58;1;1;0
+1310759;Acinetobacter baumannii 573719;1;1;0
+1310623;Acinetobacter baumannii 146457;1;1;0
+886886;Acinetobacter baumannii AB210;1;0;0
+1310654;Acinetobacter baumannii 1291820;1;1;0
+2601177;Acinetobacter sp. YH12252;0;0;0
+2601094;Acinetobacter sp. YH12106;1;1;0
+2601100;Acinetobacter sp. YH12113;1;1;0
+1343075;Acinetobacter baumannii CI77;1;1;0
+903930;Acinetobacter baumannii OIFC099;1;1;0
+1891224;Acinetobacter celticus Radolfova-Krizova et al. 2016;0;1;0
+1311131;Acinetobacter baumannii 45057_4;0;1;0
+2601199;Acinetobacter sp. YH1901134;1;1;0
+1224165;Acinetobacter baumannii ABNIH25;1;1;0
+2609154;Acinetobacter sp. TUM15509;1;1;0
+981334;Acinetobacter radioresistens CIP 103788;1;1;0
+2587144;Acinetobacter sp. BIGb0196;1;1;0
+1977882;Acinetobacter sp. ANC 4999;1;0;0
+1310753;Acinetobacter baumannii 1296252;1;1;0
+1144666;Acinetobacter sp. CIP 102143;0;0;0
+1310724;Acinetobacter sp. 1245249;1;0;0
+1094480;Acinetobacter baumannii ABNIH16;1;0;0
+1392540;Acinetobacter nectaris CIP 110549;0;0;0
+1311036;Acinetobacter baumannii 44362_2;1;1;0
+2714110;Acinetobacter sp. Marseille-Q1620;1;1;0
+1311041;Acinetobacter baumannii 44362_7;1;1;0
+2601193;Acinetobacter sp. YH16055;1;1;0
+2601070;Acinetobacter sp. YH12075;1;1;0
+1217653;Acinetobacter calcoaceticus ANC 3680;1;1;0
+1310838;Acinetobacter baumannii 24860_4;0;1;0
+1310581;Acinetobacter baumannii 34654;0;1;0
+1310935;Acinetobacter baumannii 25935_1;1;1;0
+1310942;Acinetobacter baumannii 25935_8;1;1;0
+1315142;Acinetobacter baumannii TG15238;1;0;0
+1096995;Acinetobacter baumannii BJAB07104;1;1;0
+1217659;Acinetobacter haemolyticus CIP 64.3;0;0;0
+575564;Acinetobacter genomosp. 13TU strain RUH2624;0;0;0
+1310948;Acinetobacter baumannii 24975_4;1;1;0
+2483802;Acinetobacter sp. Marseille-P8049;0;0;0
+1315148;Acinetobacter baumannii TG2013;1;1;0
+1398971;Acinetobacter baumannii UH5107;1;1;0
+2777946;Acinetobacter sp. Res13-Abat-PEC06-P4-01;1;1;0
+1221249;Acinetobacter baumannii AB_1649-8;1;0;0
+2601132;Acinetobacter sp. YH12152;1;1;0
+1311079;Acinetobacter baumannii 44298_2;1;1;0
+2601145;Acinetobacter sp. YH12209;0;0;0
+1311103;Acinetobacter baumannii 16553_6;1;1;0
+903896;Acinetobacter baumannii Naval-17;1;1;0
+1311097;Acinetobacter baumannii 45075_10;0;1;0
+903902;Acinetobacter baumannii OIFC098;0;0;0
+2601048;Acinetobacter sp. YH12040;1;1;0
+2079596;Acinetobacter sp. SWBY1;0;0;0
+1310688;Acinetobacter baumannii 144107;1;1;0
+1310785;Acinetobacter baumannii 466215;1;1;0
+2697501;Acinetobacter sp. Marseille-Q1623;0;0;0
+1310611;Acinetobacter baumannii 466760;1;1;0
+1311073;Acinetobacter baumannii 26016_6;1;1;0
+1439316;Acinetobacter baumannii BIDMC 56;1;1;0
+2601138;Acinetobacter sp. YH12158;0;0;0
+1311004;Acinetobacter baumannii 44857_10;1;1;0
+2601042;Acinetobacter sp. YH12025;1;1;0
+1311109;Acinetobacter baumannii 25569_2;1;0;0
+903908;Acinetobacter baumannii Naval-72;1;1;0
+2601035;Acinetobacter sp. YH01021;1;1;0
+1310716;Acinetobacter baumannii 1482820;1;1;0
+1310761;Acinetobacter sp. 88816;0;0;0
+2699469;Acinetobacter sp. PS-1;1;1;0
+1960940;Acinetobacter sp. ANC 5600;1;1;0
+1221268;Acinetobacter baumannii AB_908-14-7;1;1;0
+1398950;Acinetobacter baumannii UH11608;0;0;0
+1221286;Acinetobacter baumannii AB_TG27335;1;1;0
+1315169;Acinetobacter baumannii TG22332;1;1;0
+1217702;Acinetobacter sp. NIPH 1867;1;1;0
+1310813;Acinetobacter baumannii 722310;1;0;0
+1310864;Acinetobacter baumannii 24845_10;0;1;0
+421052;Acinetobacter rudis CIP 110305;0;1;0
+1221262;Acinetobacter baumannii AB_2008-23-07-01-7;1;1;0
+1315163;Acinetobacter baumannii TG22196;1;1;0
+1217708;Acinetobacter sp. NIPH 2100;1;1;0
+1310880;Acinetobacter baumannii 25253_6;1;1;0
+1310914;Acinetobacter sp. 25977_10;0;0;0
+2749439;Acinetobacter sp. SwsAc6;0;1;0
+596318;Acinetobacter radioresistens SK82;1;0;0
+497978;Acinetobacter baumannii MDR-ZJ06;0;1;0
+2798861;Acinetobacter sp. CS-2;1;1;0
+1310740;Acinetobacter baumannii 457946;1;0;0
+1310737;Acinetobacter baumannii 1271213;0;1;0
+2601014;Acinetobacter sp. Q22-2;0;1;0
+903929;Acinetobacter baumannii OIFC087;1;1;0
+2601180;Acinetobacter sp. YH16031;0;1;0
+1311128;Acinetobacter baumannii 45057_1;1;1;0
+2601063;Acinetobacter sp. YH12066;1;1;0
+2601119;Acinetobacter sp. YH12135;0;0;0
+1096779;Acinetobacter puyangensis Li et al. 2013;0;0;0
+981327;Acinetobacter lwoffii CIP 64.10;0;0;0
+1752076;Acinetobacter halotolerans Dahal et al. 2017;1;1;0
+2609147;Acinetobacter sp. TUM15372;0;0;0
+1776740;Acinetobacter genomosp. 18;0;0;0
+2820675;;1;1;0
+710094;Acinetobacter baumannii AB056;1;1;0
+1977875;Acinetobacter sp. ANC 4648;0;0;0
+1094477;Acinetobacter baumannii ABNIH13;0;0;0
+1310647;Acinetobacter sp. 1461402;1;1;0
+2608386;Acinetobacter sp. AB116925;1;1;0
+2601069;Acinetobacter sp. YH12073;1;1;0
+903923;Acinetobacter baumannii Naval-21;0;0;0
+1311122;Acinetobacter baumannii 25442_5;1;1;0
+2601164;Acinetobacter sp. YH12237;0;0;0
+2601087;Acinetobacter sp. YH12098;1;1;0
+2601113;Acinetobacter sp. YH12128;1;1;0
+1310598;Acinetobacter baumannii 1121032;0;1;0
+1398962;Acinetobacter baumannii UH19608;1;1;0
+933263;Acinetobacter baumannii strain UMB001;1;1;0
+1310926;Acinetobacter baumannii 25691_2;1;1;0
+1310951;Acinetobacter baumannii 24975_7;1;1;0
+1217640;Acinetobacter baumannii NIPH 190;0;0;0
+1310592;Acinetobacter baumannii 1039621;0;1;0
+1100843;Acinetobacter baumannii TYTH-3;1;1;0
+1217637;Acinetobacter baumannii NIPH 601;0;0;0
+1398986;Acinetobacter baumannii UH8707;1;0;0
+1221250;Acinetobacter baumannii AB_1650-8;0;0;0
+1223564;Acinetobacter baumannii ZWS1122;1;1;0
+1315151;Acinetobacter baumannii TG20546;0;1;0
+1398968;Acinetobacter baumannii UH2707;1;1;0
+2420300;Acinetobacter sp. FDAARGOS_493;1;1;0
+2601051;Acinetobacter sp. YH12045;1;1;0
+2529839;Acinetobacter sp. ANC 4178;0;1;0
+2601026;Acinetobacter sp. YH01010;1;1;0
+2853158;;0;0;0
+1311017;Acinetobacter baumannii 25493_3;1;1;0
+1310608;Acinetobacter sp. 1295259;0;0;0
+62977;Acinetobacter baylyi ADP1;1;1;0
+1310705;Acinetobacter sp. 694762;0;0;0
+1310691;Acinetobacter baumannii 42887;1;1;0
+1310772;Acinetobacter sp. 1130196;0;0;0
+1311110;Acinetobacter baumannii 25569_3;1;1;0
+1311084;Acinetobacter baumannii 44298_7;1;1;0
+1341683;Acinetobacter brisouii CIP 110357;0;0;0
+903911;Acinetobacter baumannii IS-143;1;1;0
+2601121;Acinetobacter sp. YH12137;0;0;0
+2601156;Acinetobacter sp. YH12224;0;0;0
+1310675;Acinetobacter baumannii 1526966;1;1;0
+1310796;Acinetobacter baumannii 1406182;0;1;0
+1310602;Acinetobacter baumannii 96512;1;1;0
+1310778;Acinetobacter baumannii 426863;0;1;0
+2024618;Acinetobacter sp. BS1;0;0;0
+1116234;Acinetobacter baumannii AB5075;1;1;0
+1315155;Acinetobacter baumannii TG22112;1;1;0
+1221254;Acinetobacter baumannii AB_2007-16-27-01;0;0;0
+1398982;Acinetobacter baumannii UH7807;1;1;0
+1210907;Acinetobacter baumannii BZICU-2;0;0;0
+1217644;Acinetobacter baumannii NIPH 1734;0;1;0
+1217633;Acinetobacter baumannii NIPH 335;0;0;0
+1100847;Acinetobacter baumannii TYTH-7;0;0;0
+1310858;Acinetobacter baumannii 24845_4;1;0;0
+1310596;Acinetobacter baumannii 1075025;0;1;0
+1310578;Acinetobacter baumannii 34001;1;1;0
+1310955;Acinetobacter baumannii 25561_1;1;1;0
+2715163;Acinetobacter lanii;1;1;0
+1443941;Acinetobacter gandensis;1;1;0
+2799281;Acinetobacter sp. C13;1;1;0
+1805635;Acinetobacter sp. SFD;1;1;0
+1398966;Acinetobacter baumannii UH22908;1;1;0
+2420889;Acinetobacter sp. WCHAc060006;1;1;0
+2777951;Acinetobacter sp. Res13-Abat-PEC12-P3-01;1;1;0
+1398988;Acinetobacter baumannii UH8907;0;0;0
+1217639;Acinetobacter baumannii NIPH 146;1;1;0
+1310852;Acinetobacter baumannii 24812_8;1;1;0
+401467;Acinetobacter sp. A1;0;0;0
+1310825;Acinetobacter baumannii 1064293_46;1;0;0
+1876769;Acinetobacter sp. FDAARGOS_131;1;1;0
+1311804;Acinetobacter genomosp. 9 str. ATCC 9957;0;0;0
+1665284;Acinetobacter sp. S55;0;0;0
+1310606;Acinetobacter baumannii 1297549;0;0;0
+1310792;Acinetobacter baumannii 981176;1;1;0
+1311019;Acinetobacter baumannii 25493_5;1;0;0
+2601125;Acinetobacter sp. YH12141;0;0;0
+2601152;Acinetobacter sp. YH12218;1;1;0
+1311080;Acinetobacter baumannii 44298_3;1;1;0
+2601028;Acinetobacter sp. YH01012;0;0;0
+903915;Acinetobacter sp. WC-141;0;0;0
+1311114;Acinetobacter baumannii 25569_7;0;1;0
+2529840;Acinetobacter sp. ANC 4216;1;1;0
+1310695;Acinetobacter sp. 259052;0;0;0
+1310701;Acinetobacter baumannii 268680;0;0;0
+1310776;Acinetobacter baumannii 1413735;1;0;0
+2126983;Acinetobacter sp. KPC-SM-21;1;1;0
+1310798;Acinetobacter baumannii 14216;1;0;0
+2601158;Acinetobacter sp. YH12227;0;0;0
+1311013;Acinetobacter baumannii 25681_9;1;1;0
+1168588;Acinetobacter baumannii Ab11111;1;1;0
+2601055;Acinetobacter sp. YH12052;1;1;0
+2601022;Acinetobacter sp. YH01006;0;0;0
+2518624;Acinetobacter sp. WCHAc060033;1;1;0
+2420304;Acinetobacter sp. FDAARGOS_559;1;1;0
+1458923;Acinetobacter baumannii LY6;0;1;0
+1217676;Acinetobacter soli CIP 110264;1;1;0
+1310989;Acinetobacter baumannii 44327_5;1;1;0
+595670;"Acinetobacter kyonggiensis" Lee and Lee 2010;1;1;0
+1217698;Acinetobacter sp. NIPH 3623;1;1;0
+1310910;Acinetobacter sp. 25977_6;0;0;0
+1310884;Acinetobacter baumannii 25253_10;1;1;0
+1221288;Acinetobacter baumannii AB_TG27343;1;1;0
+1315167;Acinetobacter baumannii TG22212;1;1;0
+1856846;Acinetobacter sp. 51m;0;0;0
+557601;Acinetobacter baumannii AB900;0;0;0
+1221266;Acinetobacter baumannii AB_908-12;1;1;0
+1310983;Acinetobacter baumannii 44467_9;1;1;0
+1310860;Acinetobacter baumannii 24845_6;1;1;0
+2749437;Acinetobacter sp. SwsAc4;0;0;0
+1217706;Acinetobacter sp. NIPH 2168;1;1;0
+2749440;Acinetobacter sp. SwsAc7;0;0;0
+1217692;Acinetobacter sp. NIPH 298;1;1;0
+1221282;Acinetobacter baumannii AB_TG2631;0;1;0
+1398954;Acinetobacter baumannii UH12808;1;1;0
+1315183;Acinetobacter baumannii TG27399;1;1;0
+696749;Acinetobacter baumannii 1656-2;0;1;0
+2601160;Acinetobacter sp. YH12231;1;1;0
+2601117;Acinetobacter sp. YH12133;1;1;0
+2601083;Acinetobacter sp. YH12094;1;1;0
+1311126;Acinetobacter baumannii 25442_9;0;1;0
+903927;Acinetobacter baumannii Naval-57;1;1;0
+1310739;Acinetobacter baumannii 1045092;1;1;0
+1222033;Acinetobacter baumannii AB405E4;0;0;0
+1977871;Acinetobacter sp. ANC 4973;1;1;0
+1310634;Acinetobacter baumannii 4749;0;0;0
+1310643;Acinetobacter baumannii 299505;1;1;0
+2609143;Acinetobacter sp. TUM15362;0;0;0
+2609134;Acinetobacter sp. TUM15064;1;1;0
+981329;Acinetobacter baumannii strain W7282;0;0;0
+2650965;Acinetobacter sp. RF14B;1;1;0
+2609149;Acinetobacter sp. TUM15378;0;0;0
+2601089;Acinetobacter sp. YH12100;1;1;0
+2601184;Acinetobacter sp. YH16039;1;1;0
+2601067;Acinetobacter sp. YH12071;1;1;0
+1310744;Acinetobacter baumannii 1237893;0;1;0
+1310733;Acinetobacter baumannii 1195185_11;1;0;0
+1144671;Acinetobacter sp. CIP 53.82;1;1;0
+1310649;Acinetobacter baumannii 1465485;1;1;0
+1094479;Acinetobacter baumannii ABNIH15;1;0;0
+1398975;Acinetobacter baumannii UH6107;0;1;0
+1310561;Acinetobacter baumannii 942133;1;1;0
+1310841;Acinetobacter baumannii 24860_7;1;1;0
+1310836;Acinetobacter baumannii 24860_2;1;1;0
+1147132;Acinetobacter pittii 42F;0;0;0
+1449755;Acinetobacter baumannii Pulsotype 27;0;0;0
+1221247;Acinetobacter baumannii AB_1594-8;1;0;0
+2777948;Acinetobacter sp. Res13-Abat-PEC08-P2-01;1;1;0
+1398991;Acinetobacter baumannii UH9907;1;1;0
+2420890;Acinetobacter chengduensis Qin et al. 2020;1;1;0
+1315146;Acinetobacter baumannii TG15242;1;1;0
+1310931;Acinetobacter baumannii 25691_7;1;1;0
+575584;Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841;1;1;0
+1217657;Acinetobacter gyllenbergii CIP 110306;1;1;0
+1310585;Acinetobacter baumannii 1051830;1;1;0
+1191460;Acinetobacter sp. ATCC 31012;0;0;0
+2072504;Acinetobacter sp. AKBS16;1;1;0
+1226327;Acinetobacter kookii Choi et al. 2013;1;1;0
+1310668;Acinetobacter baumannii 754286;1;0;0
+1310686;Acinetobacter baumannii 397971;1;1;0
+1310712;Acinetobacter baumannii 655555;1;1;0
+1310765;Acinetobacter baumannii 1294222;1;1;0
+2601046;Acinetobacter sp. YH12036;1;1;0
+2601031;Acinetobacter sp. YH01016;1;0;0
+1311099;Acinetobacter baumannii 16553_2;0;1;0
+903898;Acinetobacter baumannii Naval-81;1;1;0
+1311077;Acinetobacter baumannii 26016_10;0;1;0
+1310662;Acinetobacter baumannii 50595;1;1;0
+1310615;Acinetobacter sp. 1396970;0;0;0
+1310781;Acinetobacter baumannii 277047;1;1;0
+1310718;Acinetobacter baumannii 1475764;1;0;0
+1311093;Acinetobacter baumannii 45075_6;1;1;0
+903906;Acinetobacter baumannii IS-251;1;1;0
+1311107;Acinetobacter baumannii 16553_10;1;1;0
+903892;Acinetobacter baumannii OIFC109;0;1;0
+1168591;Acinetobacter baumannii Ab44444;1;1;0
+2601136;Acinetobacter sp. YH12156;0;0;0
+2601141;Acinetobacter sp. YH12205;1;1;0
+1409922;Acinetobacter baumannii MRSN 3405;0;0;0
+1217715;Acinetobacter bohemicus ANC 3994;1;1;0
+1310990;Acinetobacter baumannii 44327_6;1;0;0
+1221291;Acinetobacter baylyi TG19579;1;0;0
+1398947;Acinetobacter baumannii UH10007;0;1;0
+1310903;Acinetobacter baumannii 45002_9;1;1;0
+1310897;Acinetobacter baumannii 45002_3;1;1;0
+1310559;Acinetobacter baumannii 987421;1;1;0
+1310879;Acinetobacter baumannii 25253_5;1;1;0
+1217665;Acinetobacter junii NIPH 182;1;1;0
+1221275;Acinetobacter baumannii AB_TG2022;1;1;0
+1315174;Acinetobacter baumannii TG27311;1;1;0
+2419601;Acinetobacter sp. WCHAc060115;1;1;0
+1409928;Acinetobacter baumannii MRSN 7341;1;0;0
+2749087;Acinetobacter sp. Swhac1;0;0;0
+1120925;Acinetobacter bouvetii CIP 107468 = DSM 14964;1;1;0
+2601197;Acinetobacter sp. YH18001;0;0;0
+1871111;Acinetobacter defluvii Hu et al. 2017;0;0;0
+2725684;Acinetobacter sp. NEB149;0;0;0
+2601074;Acinetobacter sp. YH12081;1;1;0
+1311032;Acinetobacter baumannii 44437_8;1;0;0
+1311045;Acinetobacter baumannii 25878_1;1;1;0
+2601179;Acinetobacter sp. YH12255;0;0;0
+886888;Acinetobacter baumannii 3990;1;1;0
+1550715;Acinetobacter sp. NBRC 110496;1;1;0
+1310757;Acinetobacter baumannii 755829;1;1;0
+1985875;Acinetobacter sp. ACNIH4;1;1;0
+1144662;Acinetobacter sp. CIP 101966;0;0;0
+1310720;Acinetobacter sp. 478810;0;0;0
+1094484;Acinetobacter baumannii ABNIH20;1;0;0
+2609150;Acinetobacter sp. TUM15379;0;0;0
+2749360;Acinetobacter sp. SwsAc2;1;1;0
+1311142;Acinetobacter baumannii 45052_2;1;1;0
+1343071;Acinetobacter nosocomialis M2;1;1;0
+1311135;Acinetobacter baumannii 42057_3;0;0;0
+903934;Acinetobacter baumannii OIFC338;1;0;0
+2601173;Acinetobacter sp. YH12248;0;0;0
+2601104;Acinetobacter sp. YH12117;1;1;0
+1311038;Acinetobacter baumannii 44362_4;0;1;0
+2601090;Acinetobacter sp. YH12101;1;1;0
+1310627;Acinetobacter baumannii 1284800;1;1;0
+1310650;Acinetobacter baumannii 724909;1;1;0
+1144668;Acinetobacter sp. CIP 102529;0;0;0
+1311042;Acinetobacter baumannii 44362_8;1;1;0
+1311035;Acinetobacter baumannii 44362_1;1;1;0
+2601109;Acinetobacter sp. YH12124;0;0;0
+2601073;Acinetobacter sp. YH12080;1;1;0
+2601190;Acinetobacter sp. YH16051;1;1;0
+1311138;Acinetobacter baumannii 42057_6;0;1;0
+1094483;Acinetobacter baumannii ABNIH19;1;0;0
+1144665;Acinetobacter sp. CIP 102136;0;0;0
+1310727;Acinetobacter baumannii 836190;1;1;0
+1310750;Acinetobacter baumannii 1064293_45;0;0;0
+1977881;Acinetobacter sp. ANC 4470;1;1;0
+2293835;Acinetobacter sp. SWAC5;1;1;0
+1224166;Acinetobacter baumannii ABNIH26;1;0;0
+2601097;Acinetobacter sp. YH12110;1;1;0
+2601103;Acinetobacter sp. YH12116;1;1;0
+2601174;Acinetobacter sp. YH12249;0;0;0
+1311048;Acinetobacter baumannii 43557_1;1;1;0
+903933;Acinetobacter baumannii OIFC047;0;0;0
+2053289;Acinetobacter sp. ANC 5324;1;1;0
+1311145;Acinetobacter baumannii 45052_5;1;1;0
+2601079;Acinetobacter sp. YH12087;1;1;0
+1310657;Acinetobacter baumannii 1096934;1;1;0
+1310620;Acinetobacter baumannii 1294217;0;1;0
+1409925;Acinetobacter baumannii MRSN 4106;0;0;0
+1120928;Acinetobacter tjernbergiae CIP 107465 = DSM 14971;0;0;0
+2712221;Acinetobacter sp. GFQ9D191M;0;0;0
+1310803;Acinetobacter baumannii 730795;1;1;0
+1217668;Acinetobacter lwoffii NIPH 478;0;1;0
+1310979;Acinetobacter baumannii 44467_5;1;1;0
+1217712;Acinetobacter sp. NIPH 758;1;1;0
+1310554;Acinetobacter baumannii 1036938;1;1;0
+1221302;Acinetobacter sp. 528;0;1;0
+1221296;Acinetobacter nosocomialis TG19596;0;0;0
+1315179;Acinetobacter baumannii TG27383;1;1;0
+2601200;Acinetobacter sp. YH1901136;0;0;0
+2731249;Acinetobacter sp. ANC 5378;0;0;0
+1221278;Acinetobacter baumannii AB_TG2028;1;1;0
+520708;Acinetobacter sp. NIPH 817;1;0;0
+1310809;Acinetobacter baumannii 1539026;1;1;0
+1217662;Acinetobacter johnsonii ANC 3681;1;1;0
+1310890;Acinetobacter baumannii 44895_6;1;1;0
+1310904;Acinetobacter baumannii 45002_10;1;1;0
+1221308;Acinetobacter nosocomialis TG21145;1;1;0
+1315173;Acinetobacter baumannii TG27307;1;0;0
+1221272;Acinetobacter baumannii AB_909-14-7;0;1;0
+1310762;Acinetobacter baumannii 1391434;1;1;0
+1862567;Acinetobacter sp. SA01;1;1;0
+1310681;Acinetobacter sp. 1542444;1;1;0
+1310618;Acinetobacter baumannii 118362;0;0;0
+2576829;"Acinetobacter pullicarnis" Han et al. 2020;1;1;0
+1311007;Acinetobacter baumannii 25681_3;1;1;0
+1311070;Acinetobacter baumannii 26016_3;1;1;0
+2601036;Acinetobacter sp. YH01022;0;0;0
+2601041;Acinetobacter sp. YH12023;1;1;0
+1310768;Acinetobacter baumannii 1397513;1;1;0
+2004646;Acinetobacter sp. WCHA55;0;0;0
+1310786;Acinetobacter baumannii 541915;1;1;0
+2697502;Acinetobacter sp. Marseille-Q1618;0;0;0
+1310665;Acinetobacter baumannii 1525283;1;1;0
+2601146;Acinetobacter sp. YH12210;0;0;0
+2601131;Acinetobacter sp. YH12151;1;0;0
+1485002;Acinetobacter sp. ETR1;0;1;0
+1311100;Acinetobacter baumannii 16553_3;0;1;0
+903895;Acinetobacter baumannii Canada BC-5;1;1;0
+903901;Acinetobacter baumannii OIFC074;0;0;0
+1173062;Acinetobacter sp. HA;0;1;0
+267294;Acinetobacter sp. c1;1;1;0
+1398972;Acinetobacter baumannii UH5207;1;1;0
+2777945;Acinetobacter sp. Res13-Abat-PEC04-P4b-01;1;1;0
+1310831;Acinetobacter baumannii 1042969-1197;1;1;0
+1310588;Acinetobacter baumannii 562700;1;1;0
+1310846;Acinetobacter baumannii 24812_2;1;1;0
+575589;Acinetobacter radioresistens SH164;1;1;0
+1096996;Acinetobacter baumannii BJAB0715;1;1;0
+1315141;Acinetobacter baumannii TG15237;0;0;0
+1398978;Acinetobacter baumannii UH6907;1;1;0
+1315136;Acinetobacter baumannii TG02017;0;0;0
+1310582;Acinetobacter baumannii 662545-1347;1;1;0
+1217627;Acinetobacter baumannii NIPH 67;1;1;0
+1310941;Acinetobacter baumannii 25935_7;1;1;0
+1310936;Acinetobacter baumannii 25935_2;1;1;0
+903920;Acinetobacter baumannii Naval-113;1;1;0
+2601189;Acinetobacter sp. YH16050;0;0;0
+2601084;Acinetobacter sp. YH12095;0;0;0
+2601110;Acinetobacter sp. YH12125;0;0;0
+2601167;Acinetobacter sp. YH12241;0;0;0
+2136183;Acinetobacter sichuanensis Qin et al. 2018;0;0;0
+1310644;Acinetobacter baumannii 1159076;1;1;0
+1310633;Acinetobacter baumannii 940793;0;1;0
+1977876;Acinetobacter sp. ANC 4558;1;1;0
+1310749;Acinetobacter baumannii 10519;1;1;0
+2609133;Acinetobacter sp. TUM15053;0;0;0
+2609144;Acinetobacter sp. TUM15363;0;0;0
+174230;aerobic (ED);1;1;0
+707232;Acinetobacter haemolyticus ATCC 19194;1;0;0
+2609139;Acinetobacter sp. TUM15105;0;0;0
+981324;Acinetobacter bereziniae CIP 70.12 = LMG 1003;1;0;0
+2601060;Acinetobacter sp. YH12062;1;1;0
+2601017;Acinetobacter sp. Q85-2;1;1;0
+2653124;Acinetobacter sp. 8BE;1;1;0
+2601183;Acinetobacter sp. YH16038;1;1;0
+2053290;Acinetobacter sp. ANC 5347;1;1;0
+1310639;Acinetobacter sp. 272263;1;1;0
+1310734;Acinetobacter sp. 216872;0;0;0
+1310743;Acinetobacter baumannii 1264936;1;1;0
+362457;Acinetobacter sp. A2;0;0;0
+1458924;Acinetobacter baumannii LY7;1;1;0
+1310917;Acinetobacter baumannii 25766_3;1;1;0
+1217671;Acinetobacter parvus NIPH 1103;0;0;0
+1221261;Acinetobacter baumannii AB_2008-23-01-01-7;1;1;0
+1398959;Acinetobacter baumannii UH16108;1;1;0
+1315160;Acinetobacter baumannii TG22190;1;1;0
+1217701;Acinetobacter sp. ANC 3880;1;1;0
+1310889;Acinetobacter baumannii 44895_5;1;0;0
+1310867;Acinetobacter baumannii 25307_3;1;1;0
+1310810;Acinetobacter baumannii 7893;1;1;0
+1310984;Acinetobacter baumannii 44467_10;1;1;0
+1315184;Acinetobacter baumannii TG27407;1;0;0
+1398953;Acinetobacter baumannii UH12408;1;1;0
+1221311;Acinetobacter schindleri TG19614;1;1;0
+1221285;Acinetobacter baumannii AB_TG27331;1;1;0
+70348;group 17;1;0;0
+1029823;Acinetobacter sp. P8-3-8;0;0;0
+1310795;Acinetobacter sp. 1281984;1;1;0
+1310601;Acinetobacter sp. 479375;0;0;0
+1310676;Acinetobacter baumannii 43926;1;1;0
+1051623;Acinetobacter sp. V2;1;1;0
+1310698;Acinetobacter baumannii 1593273;1;1;0
+2601058;Acinetobacter sp. YH12058;0;0;0
+1497337;Acinetobacter sp. SM1B;1;1;0
+2529847;Acinetobacter sp. ANC 4641;0;0;0
+1311113;Acinetobacter baumannii 25569_6;1;1;0
+1311087;Acinetobacter baumannii 44298_10;0;1;0
+903912;Acinetobacter baumannii IS-116;1;1;0
+1311069;Acinetobacter baumannii 26016_2;1;1;0
+2601155;Acinetobacter sp. YH12223;1;1;0
+2601122;Acinetobacter sp. YH12138;1;1;0
+2608324;Acinetobacter sp. Tr-809;1;0;0
+1310771;Acinetobacter baumannii 1058283;1;1;0
+1310706;Acinetobacter baumannii 1412924;1;0;0
+1310692;Acinetobacter baumannii 532279;1;1;0
+903918;Acinetobacter sp. WC-323;1;1;0
+2605383;Acinetobacter sp. B10A;0;0;0
+2601052;Acinetobacter sp. YH12046;0;0;0
+2601128;Acinetobacter sp. YH12144;1;1;0
+2420303;Acinetobacter sp. FDAARGOS_558;0;1;0
+1398985;Acinetobacter baumannii UH8407;1;1;0
+1221253;Acinetobacter baumannii AB_2007-16-25-01-7;0;0;0
+1407071;Acinetobacter sp. TGL-Y2;1;1;0
+1310925;Acinetobacter baumannii 25691_1;1;1;0
+1310591;Acinetobacter baumannii 942194;1;1;0
+1217634;Acinetobacter baumannii NIPH 410;0;0;0
+1217643;Acinetobacter baumannii NIPH 1669;1;1;0
+1310828;Acinetobacter baumannii 472237-120;0;1;0
+2083752;Acinetobacter sp. KU 011TH;1;1;0
+1413216;Acinetobacter baumannii PKAB07;1;1;0
+2715164;Acinetobacter shaoyimingii;1;1;0
+2080673;Acinetobacter calcoaceticus/baumannii complex sp. ABNIH27;1;1;0
+2777956;Acinetobacter sp. Res13-Abat-PEC15-P5-02;1;1;0
+1221259;Acinetobacter baumannii AB_2008-15-70;1;1;0
+1315158;Acinetobacter baumannii TG22148;1;1;0
+1398961;Acinetobacter baumannii UH18608;0;0;0
+1217649;Acinetobacter beijerinckii ANC 3835;1;1;0
+1310855;Acinetobacter baumannii 24845_1;1;1;0
+1579345;Acinetobacter sp. 243_ASPC;0;0;0
