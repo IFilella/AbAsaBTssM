@@ -27,6 +27,3 @@ if os.stat("genomesTssM/%s/%s.fasta"%(taxid,taxid)).st_size == 0:
 else:
     search.make_blastdb("genomesTssM/%s/%s.fasta"%(taxid,taxid),"genomesTssM/%s/%s"%(taxid,taxid))
     blastdb = "genomesTssM/%s/%s"%(taxid,taxid)
-
-#Look for TssM homologs
-#Look for AsaB homologs

@@ -5,26 +5,71 @@ import subprocess
 import math
 import os
 
+#Input Data
 taxids = glob.glob("genomesTssM/*")
+orgdb = "/work/ifilella/uniref90/names.dmp"
 genestinf = 500
 genestsup = 8000
-etTssM = 1e-25
+etTssM = 1e-30
 coveragetTssM = 0.6
-etAsaB = 1e-25
+etAsaB = 1e-30
 coveragetAsaB = 0.6
-etTssJ = 1e-25
+etTssJ = 1e-30
 minltTssJ = 200
 maxltTssJ = 700
-queryAsaB = "/work/ifilella/AbAsaBTssM/AsaB/Ab.AsaB.fa"
-queryTssM = "/work/ifilella/AbAsaBTssM/TssM/Ab.TssM.fa"
+etTssB = 1e-30
+coveragetTssB = 0.6
+etTssK = 1e-30
+coveragetTssK = 0.6
+queryAsaB = "/work/ifilella/AbAsaBTssM/data/AsaB/Ab.AsaB.fa"
+queryTssM = "/work/ifilella/AbAsaBTssM/data/TssM/Ab.TssM.fa"
+queryTssB = "/work/ifilella/AbAsaBTssM/data/TssB/Ab.TssB.fa"
+queryTssK = "/work/ifilella/AbAsaBTssM/data/TssK/Ab.TssK.fa"
 queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
-queryseqTssM = fastaf.fastaf(queryTssM).homolseqs[0].seq
-queryseqAsaB = fastaf.fastaf(queryAsaB).homolseqs[0].seq
-fanalysis = open("TssM/TssM.txt","w")
-ftssm = open("TssM/Acinetobacters.TssM.fa","w")
-fasab = open("TssM/Acinetobacters.AsaB.fa","w")
-fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ\n")
-orgdb = "/work/ifilella/uniref90/names.dmp"
+
+#Output Data
+fanalysis = open("TssM/TssM.list.2.txt","w")
+fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ,TssB,TssK\n")
+ftssm = open("TssM/Acinetobacter.TssM.2.fa","w")
+fasab = open("TssM/Acinetobacter.AsaB.2.fa","w")
+ftssb = open("TssM/Acinetobacter.TssB.2.fa","w")
+ftssk = open("TssM/Acinetobacter.TssK.2.fa","w")
+
+
+def get_protein(query,taxid,protname,eth,cth,fout,organism):
+    tax = taxid.split("/")[1]
+    queryseq = fastaf.fastaf(query).homolseqs[0].seq
+    #Look for protein homologs#
+    blasted = "%s/%s.Ab.blasted"%(taxid,protname)
+    search.blastp(db=blastdb,query=query,out=blasted)
+    #Apply a first filter based on e-value
+    blastedf = "%s/%s.Ab.f.blasted"%(taxid,protname)
+    search.filter_blastp_search(blasted,blastedf,evalue=eth)
+    #Check that after the first filter there still are protein homologs and apply second coverage filter
+    aux = search.get_lines(blastedf)
+    if int(aux) > 0:
+        search.filter_blastp_bycoverage(queryseq,blastedf,cth,blastedf)
+        aux = search.get_lines(blastedf)
+        if int(aux) > 0:
+            fafile = "%s/%s.Ab.f.fa"%(taxid,protname)
+            search.get_fasta_from_blasted(blastedf,fafile)
+            presence = "1"
+            #Get the homolog with the lowest evalue
+            homols = fastaf.fastaf(fafile,searchtool="blastp").homolseqs
+            eaux = math.inf
+            prothomol = None
+            for homol in homols:
+                if homol.evalue < eaux:
+                    eaux = homol.evalue
+                    prothomol = homol.seq
+            fout.write(">%s_%s\n"%(organism.replace(" ","_"),tax))
+            fout.write("%s\n"%prothomol)
+        else:
+            presence = "0"
+    else:
+        presence = "0"
+    return presence
+
 
 count = 0
 totalgenes = []
@@ -46,63 +91,10 @@ for taxid in taxids:
             organism="Error4"
         blastdb = "%s/%s"%(taxid,tax)
 
-        ##Look for TssM homologs##
-        blasted = "%s/TssM.Ab.blasted"%taxid
-        search.blastp(db=blastdb,query=queryTssM,out=blasted)
-        blastedf = "%s/TssM.Ab.f.blasted"%taxid
-        search.filter_blastp_search(blasted,blastedf,evalue=etTssM)
-        #Check that after the first filter there still are TssM homologs and apply second filter
-        aux = search.get_lines(blastedf)
-        if int(aux) > 0:
-            search.filter_blastp_bycoverage(queryseqTssM,blastedf,coveragetTssM,blastedf)
-            aux = search.get_lines(blastedf)
-            if int(aux) > 0:
-                fafile = "%s/TssM.Ab.f.fa"%taxid
-                search.get_fasta_from_blasted(blastedf,fafile)
-                presenceM = "1"
-                #Get TssM homolog with lowest evalue
-                homols = fastaf.fastaf(fafile,searchtool="blastp").homolseqs
-                eaux = math.inf
-                tssmhomol = None
-                for homol in homols:
-                    if homol.evalue < eaux:
-                        eaux = homol.evalue
-                        tssmhomol = homol.seq
-                ftssm.write(">%s_%s\n"%(organism.replace(" ","_"),tax))
-                ftssm.write("%s\n"%tssmhomol)
-            else:
-                presenceM = "0"
-        else:
-            presenceM = "0"
-
-        ##Look for AsaB homologs##
-        blasted = "%s/AsaB.Ab.blasted"%taxid
-        search.blastp(db=blastdb,query=queryAsaB,out=blasted)
-        blastedf = "%s/AsaB.Ab.f.blasted"%taxid
-        search.filter_blastp_search(blasted,blastedf,evalue=etAsaB)
-        #Check that after the first filter there still are TssM homologs and apply second filter
-        aux = search.get_lines(blastedf)
-        if int(aux) > 0:
-            search.filter_blastp_bycoverage(queryseqAsaB,blastedf,coveragetAsaB,blastedf)
-            aux = search.get_lines(blastedf)
-            if int(aux) > 0:
-                fafile = "%s/AsaB.Ab.f.fa"%taxid
-                search.get_fasta_from_blasted(blastedf,fafile)
-                presenceA = "1"
-                #Get AsaB homolog with lowest evalue
-                homols = fastaf.fastaf(fafile,searchtool="blastp").homolseqs
-                eaux = math.inf
-                asabhomol = None
-                for homol in homols:
-                    if homol.evalue < eaux:
-                        eaux = homol.evalue
-                        asabhomol = homol.seq
-                fasab.write(">%s_%s\n"%(organism.replace(" ","_"),tax))
-                fasab.write("%s\n"%asabhomol)
-            else:
-                presenceA = "0"
-        else:
-            presenceA = "0"
+        presenceM = get_protein(query=queryTssM,taxid=taxid,protname="TssM",eth=etTssM,cth=coveragetTssM,fout=ftssm,organism=organism)
+        presenceA = get_protein(query=queryAsaB,taxid=taxid,protname="AsaB",eth=etAsaB,cth=coveragetAsaB,fout=fasab,organism=organism)
+        presenceB = get_protein(query=queryTssB,taxid=taxid,protname="TssB",eth=etTssB,cth=coveragetTssB,fout=ftssb,organism=organism)
+        presenceK = get_protein(query=queryTssK,taxid=taxid,protname="TssK",eth=etTssK,cth=coveragetTssK,fout=ftssk,organism=organism)        
 
         ##Look for TssJ homologs##
         for TssJ in queriesTssJ:
@@ -120,11 +112,13 @@ for taxid in taxids:
         aux = search.get_lines(blastedf)
         if int(aux) > 0 : presenceJ = 1
         else: presenceJ = 0
-    
-        print(count,tax,organism,presenceM,presenceA,presenceJ)
-        fanalysis.write("%s;%s;%s;%s;%s\n"%(tax,organism,presenceM,presenceA,presenceJ))
+        
+        print(count,tax,organism,presenceM,presenceA,presenceJ,presenceB,presenceK)
+        fanalysis.write("%s;%s;%s;%s;%s;%s;%s\n"%(tax,organism,presenceM,presenceA,presenceJ,presenceB,presenceK))
 
 print(count)
 fanalysis.close()
 ftssm.close()
 fasab.close()
+ftssb.close()
+ftssk.close()

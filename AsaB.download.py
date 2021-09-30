@@ -6,30 +6,54 @@ import subprocess
 from time import sleep
 import os
 
+def do_proteinCheck(protname,queries,ethr,lthr):
+    #Look for protein homologous from a query list 'queries'
+    for query in queries:
+        out = query.split("/")[-1].split(".")[0]
+        search.blastp(db=blastdb,query=query,out="genomesAsaB/%s/%s.%s.blasted"%(taxid,protname,out))
+    catcommand = "cat genomesAsaB/%s/%s.*.blasted > genomesAsaB/%s/%s.blasted"%(taxid,protname,taxid,protname)
+    os.system(catcommand)
+    
+    #Filter by evalue and lenght and convert to fasta
+    search.filter_blastp_search("genomesAsaB/%s/%s.blasted"%(taxid,protname),"genomesAsaB/%s/%s.f.blasted"%(taxid,protname),evalue=ethr,lenght=lthr)
+    search.get_fasta_from_blasted("genomesAsaB/%s/%s.f.blasted"%(taxid,protname),"genomesAsaB/%s/%s.f.fa"%(taxid,protname))
+    output = subprocess.run("wc genomesAsaB/%s/%s.f.fa"%(taxid,protname),shell=True,capture_output=True)
+    aux = str(output.stdout).split("\'")[1].split()[0]
+    if int(aux) > 0: presence = "1"
+    else: presence = "0"
+    return presence
+
+#Input Data
 taxiddb = "/work/ifilella/uniref90/uniref90.taxlist"
 orgdb = "/work/ifilella/uniref90/names.dmp"
 tssms = glob.glob("data/TssM/*.TssM.fa")
 tssjs = glob.glob("data/TssJ/*.TssJ.fa")
+tssbs = glob.glob("data/TssB/*.TssB.fa")
+tssks = glob.glob("data/TssK/*.TssK.fa")
 ettssm = 1e-40
-tssmmin = 700
-tssmmax = 1500
-ettssj = 1e-25
-tssjmin = 200
-tssjmax = 700
+lttssm = [700,1500]
+ettssj = 1e-30
+lttssj = [200,700]
+ettssb = 1e-30
+lttssb = [100,250]
+ettssk = 1e-30
+lttssk = [300,650]
+homologs = "AsaB/Ab.AsaB.fa"
 
-
-f = open('AsaB/AsaB.txt',"w")
-f.write("Homolog;Evalue;Coverage;TaxID;Organism;M;J\n")
+#Output Data
+f = open('AsaB/AsaB.2.txt',"w")
+f.write("Homolog;Evalue;Coverage;TaxID;Organism;M;J;B;K\n")
 titles = []
 coverages = []
 organisms = []
 taxids = []
-presenceJs = []
 presenceMs = []
+presenceJs = []
+presenceBs = []
+presenceKs = []
 evalues = []
 
 # Get Taxid,Organism,evalues and coverage for each homolog
-homologs = "AsaB/Ab.AsaB.fa"
 homols = fastaf.fastaf(homologs)
 lenquery = homols.get_query().length
 query =  homols.get_query()
@@ -86,6 +110,8 @@ for i,homol in enumerate(homols.homolseqs):
                 # Not a leave TaxID can't recover a genome
                 presenceM="Error5"
                 presenceJ="Error5"
+                presenceB="Error5"
+                presenceK="Error5"
             else: 
                 #Download the genome for the given taxid
                 if not os.path.isdir("genomesAsaB/%s"%taxid):
@@ -99,50 +125,32 @@ for i,homol in enumerate(homols.homolseqs):
                     #Empty genome
                     presenceM="Error6"
                     presenceJ="Error6"
+                    presenceB="Error5"
+                    presenceK="Error5"
                 else:
                     search.make_blastdb("genomesAsaB/%s/%s.fasta"%(taxid,taxid),"genomesAsaB/%s/%s"%(taxid,taxid))
                     blastdb = "genomesAsaB/%s/%s"%(taxid,taxid)
-                
-                    #Look for TssM homologous from a query list 'tssms'
-                    for tssm in tssms:
-                        out = tssm.split("/")[-1].split(".")[0]
-                        search.blastp(db=blastdb,query=tssm,out="genomesAsaB/%s/TssM.%s.blasted"%(taxid,out))
-                    catcommand = "cat genomesAsaB/%s/TssM.*.blasted > genomesAsaB/%s/TssM.blasted"%(taxid,taxid)
-                    os.system(catcommand)
                     
-                    #Filter by evalue and lenght and convert to fasta TssM hits
-                    search.filter_blastp_search("genomesAsaB/%s/TssM.blasted"%taxid,"genomesAsaB/%s/TssM.f.blasted"%taxid,evalue=ettssm,lenght=[tssmmin,tssmmax])
-                    search.get_fasta_from_blasted("genomesAsaB/%s/TssM.f.blasted"%taxid,"genomesAsaB/%s/TssM.f.fa"%taxid)
-                    output = subprocess.run("wc genomesAsaB/%s/TssM.f.fa"%taxid,shell=True,capture_output=True)
-                    aux = str(output.stdout).split("\'")[1].split()[0]
-                    if int(aux) > 0: presenceM = "1"
-                    else: presenceM = "0"
+                    presenceM = do_proteinCheck("TssM",tssms,ettssm,lttssm)
+                    presenceJ = do_proteinCheck("TssJ",tssjs,ettssj,lttssj)         
+                    presenceB = do_proteinCheck("TssB",tssbs,ettssb,lttssb)
+                    presenceK = do_proteinCheck("TssK",tssks,ettssk,lttssk)
 
-                    #Look for TssJ homologous from a query list 'tssjs'
-                    for tssj in tssjs:
-                        out = tssj.split("/")[-1].split(".")[0]
-                        search.blastp(db=blastdb,query=tssj,out="genomesAsaB/%s/TssJ.%s.blasted"%(taxid,out))
-                    catcommand = "cat genomesAsaB/%s/TssJ.*.blasted > genomesAsaB/%s/TssJ.blasted"%(taxid,taxid)
-                    os.system(catcommand)
-                    
-                    #Filter by evalue and lenght and convert to fasta TssJ hits
-                    search.filter_blastp_search("genomesAsaB/%s/TssJ.blasted"%taxid,"genomesAsaB/%s/TssJ.f.blasted"%taxid,evalue=ettssj,lenght=[tssjmin,tssjmax])
-                    search.get_fasta_from_blasted("genomesAsaB/%s/TssJ.f.blasted"%taxid,"genomesAsaB/%s/TssJ.f.fa"%taxid)
-                    output = subprocess.run("wc genomesAsaB/%s/TssJ.f.fa"%taxid,shell=True,capture_output=True)
-                    aux = str(output.stdout).split("\'")[1].split()[0]
-                    if int(aux) > 0: presenceJ = "1"
-                    else: presenceJ = "0"
                     
         else:
             presenceM=taxid
             presenceJ=taxid
+            presenceB=taxid
+            presenceK=taxid
         presenceMs.append(presenceM)
         presenceJs.append(presenceJ)
+        presenceBs.append(presenceB)
+        presenceKs.append(presenceK)
         print("---------------------------------")
-        print(tit,taxid,organism,presenceM,presenceJ)
+        print(tit,taxid,organism,presenceM,presenceJ,presenceB,presenceK)
         print("---------------------------------")
 
-print(len(titles),len(evalues),len(coverages),len(taxids),len(organisms),len(presenceMs),len(presenceJs))
+print(len(titles),len(evalues),len(coverages),len(taxids),len(organisms),len(presenceMs),len(presenceJs),len(presenceBs),len(presenceKs))
 for i,title in enumerate(titles):
-    f.write("%s;%s;%.3f;%s;%s;%s;%s\n"%(titles[i],evalues[i],coverages[i],taxids[i],organisms[i],presenceMs[i],presenceJs[i]))
+    f.write("%s;%s;%.3f;%s;%s;%s;%s;%s;%s\n"%(titles[i],evalues[i],coverages[i],taxids[i],organisms[i],presenceMs[i],presenceJs[i],presenceBs[i],presenceKs[i]))
 
