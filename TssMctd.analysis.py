@@ -184,25 +184,33 @@ for line in gxfile:
 print(count,tssjs)
 """
 """
-###Find GXXGXXXG pattern on TssMctd###
+###Find GXXGXXXG pattern on TssMctd of Acinetobacter species###
 
 #Input data
+Blist = numpy.genfromtxt("TssM/TssM.list.2.txt",skip_header=1,delimiter=";",dtype=str)
 #alictd = fastaf.Alignment(aliname="TssM/Acinetobacter.TssM.2.fa")
-alictd = fastaf.Alignment(aliname="TssM/Baumannii.TssM.2.fa")
+#alictd = fastaf.Alignment(aliname="TssM/Baumannii.TssM.2.fa")
+alictd = fastaf.Alignment(aliname="TssM/NOBaumannii.TssM.2.fa")
 
 #Output data
+count = 0
 total = 0
 total1 = 0
 total2 = 0
 total3 = 0
 totalplus = 0
-#f = open("TssM/GXXXGXXXG.Acineto.txt","w")
-f = open("TssM/GXXXGXXXG.Baumannii.txt","w")
+#f = open("TssM/GXXXGXXXG.Acineto.2.txt","w")
+#f = open("TssM/GXXXGXXXG.Baumannii.2.txt","w")
+f = open("TssM/GXXXGXXXG.NOBaumannii.2.txt","w")
 
 for i,name in enumerate(alictd.names):
     unaliseq = alictd.seqs[i]
     taxid = name.split("_")[-1]
     organism = "_".join(name.split("_")[0:-2])
+    indx = numpy.where(Blist==taxid)[0][0]
+    presenceB = list(Blist[indx])[5]
+    if presenceB != '1': continue
+    count+=1
     #Found the pattern on the sequence
     patterns1 = re.findall('G..G..G',unaliseq[-100:])
     patterns2 = re.findall('G...G...G',unaliseq[-100:])
@@ -218,5 +226,54 @@ for i,name in enumerate(alictd.names):
         if len(patterns)>3: totalplus+=1
         print("%s;%s;%s\n"%('_'.join(patterns),organism,taxid))
         f.write("%s;%s;%s\n"%('_'.join(patterns),organism,taxid))
-print(len(alictd.names),total,total1,total2,total3,totalplus)
+    else:
+        f.write("NOTFOUND;%s;%s\n"%(organism,taxid))
+print(len(alictd.names),count,total,total1,total2,total3,totalplus)
+"""
+"""
+###Find GXXGXXXG pattern on TssMctd of Acinetobacter species###
+
+#Input data
+Blist = numpy.genfromtxt("TssM/TssM.list.2.txt",skip_header=1,delimiter=";",dtype=str)
+#alictd = fastaf.Alignment(aliname="TssM/Acinetobacter.TssM.2.fa")
+#alictd = fastaf.Alignment(aliname="TssM/Baumannii.TssM.2.fa")
+alictd = fastaf.Alignment(aliname="TssM/NOBaumannii.TssM.2.fa")
+
+#Output data
+count = 0
+total = 0
+total1 = 0
+total2 = 0
+total3 = 0
+totalplus = 0
+#f = open("TssM/GXXXGXXXG.Acineto.2.txt","w")
+#f = open("TssM/GXXXGXXXG.Baumannii.2.txt","w")
+f = open("TssM/GXXXGXXXG.NOBaumannii.2.txt","w")
+
+for i,name in enumerate(alictd.names):
+    unaliseq = alictd.seqs[i]
+    taxid = name.split("_")[-1]
+    organism = "_".join(name.split("_")[0:-2])
+    indx = numpy.where(Blist==taxid)[0][0]
+    presenceB = list(Blist[indx])[5]
+    if presenceB != '1': continue
+    count+=1
+    #Found the pattern on the sequence
+    patterns1 = re.findall('G..G..G',unaliseq[-100:])
+    patterns2 = re.findall('G...G...G',unaliseq[-100:])
+    patterns3 = re.findall('G..G...G',unaliseq[-100:])
+    patterns4 = re.findall('G...G..G',unaliseq[-100:])
+    patterns = patterns1 + patterns2 + patterns3 + patterns4
+    if len(patterns)>0:
+        total+=1
+        print(i,name,patterns)
+        if len(patterns)==1: total1+=1
+        if len(patterns)==2: total2+=1
+        if len(patterns)==3: total3+=1
+        if len(patterns)>3: totalplus+=1
+        print("%s;%s;%s\n"%('_'.join(patterns),organism,taxid))
+        f.write("%s;%s;%s\n"%('_'.join(patterns),organism,taxid))
+    else:
+        f.write("NOTFOUND;%s;%s\n"%(organism,taxid))
+print(len(alictd.names),count,total,total1,total2,total3,totalplus)
 """
