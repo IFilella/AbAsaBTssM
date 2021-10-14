@@ -7,7 +7,7 @@ import matplotlib.ticker
 import pylab
 
 #Input data
-homologs = numpy.genfromtxt("AsaB/AsaB.3.txt",delimiter=";",skip_header=1,dtype=str)
+homologs = numpy.genfromtxt("AsaB/AsaB.txt",delimiter=";",skip_header=1,dtype=str)
 
 #Output data
 count=0

@@ -21,10 +21,10 @@ etTssB = 1e-20
 coveragetTssB = 0.6
 etTssK = 1e-20
 coveragetTssK = 0.6
-queryAsaB = "/work/ifilella/AbAsaBTssM/data/AsaB/Ab.AsaB.fa"
-queryTssM = "/work/ifilella/AbAsaBTssM/data/TssM/Ab.TssM.fa"
-queryTssB = "/work/ifilella/AbAsaBTssM/data/TssB/Ab.TssB.fa"
-queryTssK = "/work/ifilella/AbAsaBTssM/data/TssK/Ab.TssK.fa"
+queryAsaB = "data/AsaB/Ab.AsaB.fa"
+queryTssM = "data/TssM/Ab.TssM.fa"
+queryTssB = "data/TssB/Ab.TssB.fa"
+queryTssK = "data/TssK/Ab.TssK.fa"
 queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
 
 #Output Data

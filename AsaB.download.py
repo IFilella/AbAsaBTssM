@@ -41,7 +41,7 @@ lttssk = [300,650]
 homologs = "AsaB/Ab.AsaB.fa"
 
 #Output Data
-f = open('AsaB/AsaB.3.txt',"w")
+f = open('AsaB/AsaB.txt',"w")
 f.write("Homolog;Evalue;Coverage;TaxID;Organism;M;J;B;K\n")
 titles = []
 coverages = []
