@@ -1,0 +1,159 @@
+Homolog;Evalue;Coverage;TaxID;Organism;M;J;B;K
+UniRef90_R9RFN5;0.0;1.000;470;Acinetobacter baumannii ;Error5;Error5;Error5;Error5
+UniRef90_A0A4V7TGJ5;0.0;1.000;Error2;Error2;Error2;Error2;Error2;Error2
+UniRef90_F0KJQ2;0.0;0.998;871585;Acinetobacter calcoaceticus (strain PHEA-2) ;1;0;1;1
+UniRef90_UPI0002C9177F;0.0;0.751;470;Acinetobacter baumannii Bouvet and Grimont 1986;Error5;Error5;Error5;Error5
+UniRef90_A0A6S4UL41;0.0;0.730;48296;Acinetobacter pittii ;Error5;Error5;Error5;Error5
+UniRef90_A0A022IXR7;1.33e-164;0.634;1310723;Acinetobacter sp. 1564232 ;0;0;1;1
+UniRef90_UPI00141DE836;3.18e-152;0.985;2608324;Acinetobacter sp. Tr-809;1;0;1;1
+UniRef90_N9RW28;8.28e-152;0.979;1217708;Acinetobacter sp. NIPH 2100 ;1;0;1;1
+UniRef90_A0A3F3GSE2;1.43e-150;0.947;1217674;Acinetobacter radioresistens NIPH 2130 ;1;0;1;1
+UniRef90_A0A062I8J2;1.54e-149;0.464;1310697;Acinetobacter baumannii 21072 ;0;0;0;0
+UniRef90_S3TAJ8;1.62e-149;0.981;280145;Acinetobacter colistiniresistens ;1;0;1;1
+UniRef90_N8Y0L7;6.73e-148;0.943;1217656;Acinetobacter guillouiae NIPH 991 ;1;0;1;1
+UniRef90_N8WD01;7.32e-148;0.983;1144672;Acinetobacter sp. CIP 56.2 ;1;0;1;1
+UniRef90_N9L999;2.25e-147;0.985;1217703;Acinetobacter sp. ANC 4105 ;1;0;1;1
+UniRef90_A0A6I1IZD2;1.14e-145;0.443;2665391;Enterobacteriaceae bacterium TzEc077 ;Error6;Error6;Error6;Error6
+UniRef90_N8WC50;7.27e-144;0.987;1217712;Acinetobacter sp. NIPH 758 ;1;0;1;1
+UniRef90_N9EE81;2.48e-143;0.987;1217648;Acinetobacter beijerinckii CIP 110307 ;1;0;1;1
+UniRef90_N9CXF7;4.11e-143;0.936;981324;Acinetobacter bereziniae LMG 1003 = CIP 70.12 ;1;0;1;1
+UniRef90_A0A241W9G1;1.74e-142;0.979;1977874;Acinetobacter sp. ANC 3832 ;1;0;1;1
+UniRef90_A0A150HXX9;5.41e-141;0.987;52133;Acinetobacter venetianus ;Error5;Error5;Error5;Error5
+UniRef90_A0A241VN79;9.35e-139;0.977;1977877;Acinetobacter sp. ANC 5054 ;1;0;1;1
+UniRef90_UPI0005709CDB;3.52e-138;0.987;1561217;Acinetobacter sp. A47;1;0;1;1
+UniRef90_A0A3S9AV62;8.57e-138;0.968;29430;Acinetobacter haemolyticus ;Error5;Error5;Error5;Error5
+UniRef90_A0A4Q6XBJ1;8.77e-137;0.981;1752076;Acinetobacter halotolerans ;1;0;1;1
+UniRef90_A0A143G7P0;3.53e-135;0.987;1407071;Acinetobacter sp. TGL-Y2 ;1;0;1;1
+UniRef90_A0A6G8RZM2;7.79e-134;0.977;2715164;Acinetobacter shaoyimingii ;1;0;1;1
+UniRef90_A0A241WB84;1.46e-133;0.970;1977872;Acinetobacter sp. ANC 4654 ;1;0;1;1
+UniRef90_UPI0005C8948C;1.76e-133;0.964;108980;Acinetobacter phenon 1;Error5;Error5;Error5;Error5
+UniRef90_A0A0U3SP51;2.05e-133;0.974;1242245;Acinetobacter johnsonii XBB1 ;1;0;1;1
+UniRef90_A0A1Y3CPH6;2.14e-133;0.964;1977881;Acinetobacter sp. ANC 4470 ;1;0;1;1
+UniRef90_A0A1T1GUQ4;2.26e-133;0.977;1960940;Acinetobacter sp. ANC 5600 ;1;0;1;1
+UniRef90_A0A1A7RAV6;2.63e-133;0.979;1443941;Acinetobacter gandensis ;1;0;1;1
+UniRef90_N9MY69;3.68e-133;0.985;1217692;Acinetobacter sp. NIPH 298 ;1;0;1;1
+UniRef90_A0A385CAD9;7.71e-133;0.947;1879050;Acinetobacter wuhouensis ;1;0;1;1
+UniRef90_S7WV65;1.28e-132;0.981;1330047;Acinetobacter junii MTCC 11364 ;1;0;1;1
+UniRef90_N9MCL3;6.06e-131;0.981;1144671;Acinetobacter sp. CIP 53.82 ;1;0;1;1
+UniRef90_A0A178G522;1.60e-127;0.994;1805634;Acinetobacter sp. SFB ;1;0;1;1
+UniRef90_Q6F926;1.31e-126;0.964;62977;Acinetobacter baylyi (strain ATCC 33305 / BD413 / ADP1) ;1;0;1;1
+UniRef90_A0A6G8S0F9;4.66e-126;0.987;2715163;Acinetobacter lanii ;1;0;1;1
+UniRef90_A0A241VJS8;1.89e-125;0.994;1977878;Acinetobacter sp. ANC 4655 ;1;0;1;1
+UniRef90_A0A1H7RHJ6;1.56e-124;0.970;346222;Acinetobacter sp. DSM 11652 ;1;0;1;1
+UniRef90_A0A373B5Z3;1.50e-123;0.974;2293834;Acinetobacter sp. SWAC57 ;1;0;1;1
+UniRef90_A0A3A8EL99;3.89e-123;0.987;2419603;Acinetobacter sp. WCHAc060012 ;1;0;1;1
+UniRef90_N8Q8V7;7.75e-123;0.964;1217715;Acinetobacter bohemicus ANC 3994 ;1;0;1;1
+UniRef90_A0A1Y3CYV8;9.05e-123;0.979;1977879;Acinetobacter sp. ANC 4169 ;1;0;1;1
+UniRef90_UPI00141D5E3F;3.34e-122;0.972;202951;Acinetobacter bouvetii Carr et al. 2003;Error5;Error5;Error5;Error5
+UniRef90_UPI0014905E68;1.23e-121;0.994;2731251;Acinetobacter sp. ANC 5414;1;0;1;0
+UniRef90_A0A4R0E391;2.71e-121;0.994;2529844;Acinetobacter sp. ANC 4472 ;1;0;1;1
+UniRef90_A0A3A8F8K2;6.92e-121;0.970;2419605;Acinetobacter sp. WCHAc060007 ;1;0;1;1
+UniRef90_UPI00057E039C;8.50e-121;0.970;1353941;Acinetobacter harbinensis Li et al. 2014;1;0;1;1
+UniRef90_A0A4P8DV36;1.42e-120;0.970;2136182;Acinetobacter cumulans ;1;0;1;1
+UniRef90_A0A2U3MWN3;2.42e-120;0.932;2126983;Acinetobacter stercoris ;1;0;1;1
+UniRef90_A0A3A8EDT5;1.64e-119;0.962;1843371;Acinetobacter guerrae ;1;0;1;1
+UniRef90_A0A3A8F6W6;2.02e-119;0.940;2419601;Acinetobacter sp. WCHAc060115 ;1;0;1;1
+UniRef90_A0A519J7K2;1.49e-118;0.972;472;Acinetobacter sp. ;0;0;0;0
+UniRef90_N9CPL7;2.91e-118;0.949;1120929;Acinetobacter towneri DSM 14962 = CIP 107472 ;1;0;1;1
+UniRef90_UPI000B7F6761;6.58e-117;0.943;2006115;Acinetobacter piscicola Liu et al. 2018;1;0;1;1
+UniRef90_A0A1Y3C446;1.33e-116;0.981;1977883;Acinetobacter sp. ANC 3903 ;1;0;1;1
+UniRef90_UPI00140DE1AA;5.31e-116;0.972;469;Acinetobacter Brisou and Prevot 1954;Error5;Error5;Error5;Error5
+UniRef90_UPI00148FD6F9;8.78e-116;0.979;2731243;Acinetobacter sp. NIPH 2377;1;0;1;1
+UniRef90_A0A4V2LRN5;5.07e-115;0.983;2529835;Acinetobacter sp. ANC 3781 ;1;0;1;1
+UniRef90_A0A1C3CXG6;5.43e-114;0.974;1891224;Acinetobacter celticus ;1;0;1;1
+UniRef90_N9DQ98;2.09e-111;1.000;1120925;Acinetobacter bouvetii DSM 14964 = CIP 107468 ;1;0;1;1
+UniRef90_UPI000DCFA31B;3.27e-111;0.970;2069438;Acinetobacter sp. MB5;1;0;1;1
+UniRef90_A0A515BH83;1.05e-105;0.972;202954;Acinetobacter tandoii ;Error5;Error5;Error5;Error5
+UniRef90_A0A2D1ISF6;1.20e-105;0.940;1808001;Acinetobacter sp. LoGeW2-3 ;1;0;1;1
+UniRef90_A0A4V2LRE0;8.10e-105;0.968;2529840;Acinetobacter sp. ANC 4216 ;1;0;1;1
+UniRef90_R9B7T0;9.80e-104;0.970;1120927;Acinetobacter tandoii DSM 14970 = CIP 107469 ;1;0;1;1
+UniRef90_A0A178GJB4;1.16e-103;0.940;1805635;Acinetobacter sp. SFD ;1;0;1;1
+UniRef90_A0A241WBW8;7.53e-103;0.949;1977873;Acinetobacter sp. ANC 3813 ;1;0;1;1
+UniRef90_N8WK35;1.23e-102;0.957;1217675;Acinetobacter schindleri NIPH 900 ;1;0;1;1
+UniRef90_A0A2C9WTN5;3.67e-101;0.972;1977876;Acinetobacter sp. ANC 4558 ;1;0;0;1
+UniRef90_UPI000697B15D;2.46e-100;0.979;396323;Acinetobacter brisoui Anandham et al. 2011;Error5;Error5;Error5;Error5
+UniRef90_A0A1P8EEQ9;5.61e-100;0.915;487316;Acinetobacter soli ;Error5;Error5;Error5;Error5
+UniRef90_A0A1B2M0V7;8.51e-100;0.985;1789224;Acinetobacter larvae ;1;0;1;1
+UniRef90_S3P6I4;7.13e-99;0.940;421052;Acinetobacter rudis CIP 110305 ;1;0;1;1
+UniRef90_A0A315WJI9;7.52e-99;0.970;2170730;Acinetobacter sp. AM ;1;0;1;1
+UniRef90_A0A4R0DK86;1.18e-97;0.957;2529846;Acinetobacter sp. ANC 4635 ;1;0;0;1
+UniRef90_A0A151Y330;5.04e-97;0.981;1806892;Acinetobacter pragensis ;1;0;1;1
+UniRef90_UPI00111E1CA4;3.15e-95;0.972;2576829;"Acinetobacter pullicarnis" Han et al. 2020;1;0;1;1
+UniRef90_N8Y5C8;9.39e-95;0.949;1120926;Acinetobacter gerneri DSM 14967 = CIP 107464 ;1;0;1;1
+UniRef90_A0A217EHZ3;2.78e-93;0.917;1229165;Acinetobacter apis ;1;0;1;1
+UniRef90_A0A4R1XRW4;1.70e-89;0.977;471;Acinetobacter calcoaceticus ;Error5;Error5;Error5;Error5
+UniRef90_A0A0N9W2M5;2.86e-89;0.938;1324350;Acinetobacter equi ;1;0;1;1
+UniRef90_A0A1G6ILA3;3.16e-88;0.943;1219383;Acinetobacter boissieri ;1;0;1;1
+UniRef90_N9H4B1;1.29e-86;0.981;981327;Acinetobacter lwoffii NCTC 5866 = CIP 64.10 = NIPH 512 ;0;0;0;0
+UniRef90_A0A556CSR2;6.71e-85;0.977;Error2;Error2;Error2;Error2;Error2;Error2
+UniRef90_A0A1J6X542;2.29e-83;0.953;1891969;Acinetobacter sp. AR2-3 ;1;0;1;1
+UniRef90_N9HM35;2.96e-82;0.953;1217668;Acinetobacter lwoffii NIPH 478 ;1;0;1;1
+UniRef90_N8WSG9;5.40e-80;0.957;1217710;Acinetobacter sp. NIPH 899 ;1;0;1;1
+UniRef90_UPI0002CBD770;4.57e-70;0.255;470;Acinetobacter baumannii Bouvet and Grimont 1986;Error5;Error5;Error5;Error5
+UniRef90_A0A3B7M484;5.51e-67;0.900;2004650;Acinetobacter chinensis ;1;0;1;1
+UniRef90_A0A1Y3CBR6;3.13e-65;0.483;1977882;Acinetobacter sp. ANC 4999 ;1;0;0;0
+UniRef90_A0A6S4V3R4;1.32e-64;0.283;48296;Acinetobacter pittii ;Error5;Error5;Error5;Error5
+UniRef90_UPI00056E0254;2.38e-32;0.155;470;Acinetobacter baumannii Bouvet and Grimont 1986;Error5;Error5;Error5;Error5
+UniRef90_UPI0015D36513;3.90e-32;0.340;2601140;Acinetobacter sp. YH12201;0;0;0;0
+UniRef90_N8YC56;1.78e-30;0.923;1120926;Acinetobacter gerneri DSM 14967 = CIP 107464 ;1;0;1;1
+UniRef90_UPI0015D34DD1;1.56e-21;0.291;2601140;Acinetobacter sp. YH12201;0;0;0;0
+UniRef90_UPI00047B5D28;8.47e-21;0.760;197183;alkane-degrading soil bacterium MVAB Hex1;Error5;Error5;Error5;Error5
+UniRef90_A0A1S8CSK9;1.60e-16;0.766;1907941;Alkanindiges hydrocarboniclasticus ;1;0;1;1
+UniRef90_A0A4Q5VJT6;2.58e-14;0.506;1889775;Moraxellaceae bacterium ;Error6;Error6;Error6;Error6
+UniRef90_A0A2E9AMK1;1.70e-06;0.340;1914330;Salinisphaera sp. ;Error6;Error6;Error6;Error6
+UniRef90_UPI000483D423;2.83e-06;0.402;73030;ATCC 700666;Error5;Error5;Error5;Error5
+UniRef90_A0A0K1JA95;4.66e-05;0.298;198107;Azoarcus sp. CIB ;1;1;1;1
+UniRef90_A0A5C0YPN4;1.08e-04;0.291;Error2;Error2;Error2;Error2;Error2;Error2
+UniRef90_UPI00135D06C8;1.37e-04;0.270;2675298;BCRC 81185;1;1;1;1
+UniRef90_A0A0F5K5W4;1.49e-04;0.315;28092;Robbsia andropogonis ;Error5;Error5;Error5;Error5
+UniRef90_A0A2S8VE95;2.33e-04;0.291;1827284;Achromobacter sp. MYb9 ;1;1;1;1
+UniRef90_UPI00161475D2;2.78e-04;0.649;714531;BCRC 80168;1;0;1;1
+UniRef90_A0A2G3K997;4.89e-04;0.640;1559339;Chitinimonas sp. BJB300 ;1;0;1;1
+UniRef90_Q47E03;5.64e-04;0.666;159087;Dechloromonas aromatica (strain RCB) ;1;1;1;1
+UniRef90_A0A2S0I2T3;6.51e-04;0.311;217203;Achromobacter spanius ;1;1;1;1
+UniRef90_UPI0016013189;6.66e-04;0.291;1862319;Achromobacter sp. UMC46;1;1;1;1
+UniRef90_UPI0010F7112C;8.79e-04;0.685;2502235;Chitinivorax sp. B;1;0;1;1
+UniRef90_UPI00145E964F;0.002;0.387;90060;Aromatoleum toluolicum Rabus et al. 2019;1;1;1;0
+UniRef90_A0A261TK55;0.002;0.666;1395608;Bordetella genomosp. 5 ;1;1;1;1
+UniRef90_A0A5B8N703;0.004;0.300;2601898;Noviherbaspirillum sp. UKPF54 ;1;1;1;1
+UniRef90_A0A446C9B0;0.004;0.291;1353888;Achromobacter agilis ;1;1;1;1
+UniRef90_J3HN88;0.004;0.332;1144342;Herbaspirillum sp. YR522 ;0;1;1;1
+UniRef90_A0A2N2QGV5;0.006;0.370;2013719;Betaproteobacteria bacterium HGW-Betaproteobacteria-7 ;Error6;Error6;Error6;Error6
+UniRef90_UPI00145CEF96;0.007;0.389;59406;Aromatoleum evansii (Anders et al. 1995) Rabus et al. 2019;1;1;1;1
+UniRef90_A0A3Q9PFY1;0.007;0.664;366649;Xanthomonas citri pv. fuscans ;Error5;Error5;Error5;Error5
+UniRef90_A0A418X0Y0;0.007;0.294;2320862;Herbaspirillum sp. K2R10-39 ;1;1;1;1
+UniRef90_A0A2S7EP45;0.010;0.677;53414;Xanthomonas populi ;1;0;0;0
+UniRef90_A0A3M8SQK4;0.012;0.696;1327343;Lysobacter psychrotolerans ;1;1;1;1
+UniRef90_A0A2V4UJ91;0.014;0.738;198480;Psychrobacter fozii ;1;0;1;1
+UniRef90_UPI0016488190;0.022;0.611;135621;Pseudomonadaceae;Error5;Error5;Error5;Error5
+UniRef90_A0A562LAR1;0.026;0.260;985012;Luteimonas cucumeris ;1;0;0;1
+UniRef90_A0A4P7ACL8;0.027;0.287;863372;Herbaspirillum huttiense ;Error5;Error5;Error5;Error5
+UniRef90_UPI000360DE59;0.032;0.262;92003;Aromatoleum toluclasticum;Error5;Error5;Error5;Error5
+UniRef90_UPI00123D20EE;0.048;0.311;2608630;Dechloromonas sp. CZR5;1;1;1;1
+UniRef90_UPI000F615873;0.059;0.300;1781211;DSM 101871;1;1;1;1
+UniRef90_A0A2N2RNV5;0.099;0.311;2013716;Betaproteobacteria bacterium HGW-Betaproteobacteria-4 ;Error6;Error6;Error6;Error6
+UniRef90_A0A246WWI7;0.11;0.298;2014887;Herbaspirillum robiniae ;1;1;1;1
+UniRef90_A0A557SJE1;0.11;0.289;1629404;Denitromonas halophilus ;1;1;1;1
+UniRef90_A0A561KCR9;0.16;0.309;863372;Herbaspirillum huttiense ;Error5;Error5;Error5;Error5
+UniRef90_N9DKI1;0.37;0.694;1257043;Acinetobacter ursingii ANC 3649 ;0;0;0;0
+UniRef90_A0A1N7QLR8;0.40;0.304;1881016;Achromobacter sp. MFA1 R4 ;1;1;1;1
+UniRef90_UPI000585A1E1;0.70;0.306;863372;ATCC 14670;Error5;Error5;Error5;Error5
+UniRef90_A0A1K2HEM2;0.96;0.272;1121279;Chitinimonas taiwanensis DSM 18899 ;1;1;1;1
+UniRef90_A0A1R1I838;1.1;0.306;418702;Azonexus hydrophilus ;Error5;Error5;Error5;Error5
+UniRef90_A0A514ED11;1.4;0.113;152263;Xanthomonas translucens pv. cerealis ;1;1;1;1
+UniRef90_A0A0G3BGI6;2.0;0.443;413882;[Polyangium] brachysporum ;Error6;Error6;Error6;Error6
+UniRef90_A0A1N6VCW5;2.2;0.298;34027;Aromatoleum tolulyticum ;1;1;1;1
+UniRef90_A0A2S5SYZ5;2.4;0.174;1452508;Zhizhongheella caldifontis ;1;1;1;1
+UniRef90_A0A6L4AU23;3.0;0.153;2651171;Thermoanaerobaculia bacterium ;Error6;Error6;Error6;Error6
+UniRef90_A0A4R3XSY5;3.0;0.289;1706046;Sulfurirhabdus autotrophica ;1;1;1;1
+UniRef90_A0A4S2D035;3.1;0.087;40324;Stenotrophomonas maltophilia ;Error5;Error5;Error5;Error5
+UniRef90_A0A0J6ILL6;3.2;0.274;1608994;Pseudomonas weihenstephanensis ;1;1;1;1
+UniRef90_A0A1C3NQK6;3.5;0.094;56449;Xanthomonas bromi ;1;1;1;1
+UniRef90_UPI000F01BA7A;3.9;0.274;33069;ATCC 13223;Error5;Error5;Error5;Error5
+UniRef90_A0A095VVJ2;4.5;0.309;1532557;Achromobacter sp. RTa ;1;1;1;1
+UniRef90_A0A0X8NV61;5.3;0.289;85698;Alcaligenes xylosoxydans xylosoxydans ;Error5;Error5;Error5;Error5
+UniRef90_A0A3C1W1B3;5.5;0.302;2053619;Succinivibrio sp. ;Error6;Error6;Error6;Error6
+UniRef90_UPI0015AAB053;5.5;0.181;2044939;Clostridia bacterium;Error6;Error6;Error6;Error6
+UniRef90_A0A1Z9PIH1;5.8;0.264;1986750;Gammaproteobacteria bacterium TMED234 ;Error6;Error6;Error6;Error6
+UniRef90_A0A357NL09;6.7;0.085;69392;Stenotrophomonas sp. ;Error6;Error6;Error6;Error6
+UniRef90_U4T6K5;9.8;0.381;1354303;Psychrobacter aquaticus CMS 56 ;1;0;1;1
