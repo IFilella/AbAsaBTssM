@@ -95,7 +95,7 @@ lttssb = [100,250]
 tssbs = glob.glob("data/TssB/*.TssB.fa")
 
 #Output data
-f = open("TssMctd/GXXXGXXXG.noAcineto.2.txt","w")
+f = open("TssMctd/GXXXGXXXG.noAcineto.txt","w")
 f.write("GxxxGxxxG;key;organism;taxid;B;J\n")
 
 for i,name in enumerate(alictd.names):

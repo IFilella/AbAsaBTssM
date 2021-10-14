@@ -18,8 +18,8 @@ genestinf = 500
 genestsup = 8000
 taxids = glob.glob("genomesTssM/*")
 count = 0
-tssmlist = numpy.genfromtxt("TssM/TssM.list.3.txt",delimiter=";",skip_header=1,dtype=str)
-tssmseqs = fastaf.Alignment("/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.3.fa")
+tssmlist = numpy.genfromtxt("TssM/TssM.list.txt",delimiter=";",skip_header=1,dtype=str)
+tssmseqs = fastaf.Alignment("/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.fa")
 
 #Get total mean+-std genes per genome
 totalgenes = []
@@ -79,14 +79,14 @@ print("TssM mean lenght: " + str(numpy.mean(aux)))
 
 
 # Get the conservation level of M, AsaB, B and K for A.b and Acinetonacter spp
-aliAciM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.3.aln")
-aliAciA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.AsaB.3.aln")
-aliAciB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssB.3.aln")
-aliAciK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssK.3.aln")
-aliAbM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssM.3.aln")
-aliAbA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.AsaB.3.aln")
-aliAbB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssB.3.aln")
-aliAbK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssK.3.aln")
+aliAciM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.aln")
+aliAciA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.AsaB.aln")
+aliAciB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssB.aln")
+aliAciK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssK.aln")
+aliAbM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssM.aln")
+aliAbA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.AsaB.aln")
+aliAbB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssB.aln")
+aliAbK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssK.aln")
 
 x = ["TssM","AsaB","TssB","TssK"]
 y = []

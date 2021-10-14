@@ -10,7 +10,7 @@ import subprocess
 ###Analysis of the GxxxGxxxG output for non Acinetobacter###
 
 #Input data
-gxfile = numpy.genfromtxt("TssMctd/GXXXGXXXG.noAcineto.2.txt",dtype=str,skip_header=1,delimiter=";")
+gxfile = numpy.genfromtxt("TssMctd/GXXXGXXXG.noAcineto.txt",dtype=str,skip_header=1,delimiter=";")
 total = len(gxfile)
 
 #Output data
@@ -49,17 +49,17 @@ print("GxxxGxxxG with TssJ: %s\nNO GxxxGxxxG with TssJ: %s"%(Gtssj,NOGtssj))
 ###Find GXXGXXXG pattern on TssMctd of Acinetobacter species###
 
 #Input data
-Blist = numpy.genfromtxt("TssM/TssM.list.3.txt",skip_header=1,delimiter=";",dtype=str)
-alictdAci = fastaf.Alignment(aliname="TssM/Acinetobacter.TssM.3.fa")
-alictdBau = fastaf.Alignment(aliname="TssM/Baumannii.TssM.3.fa")
-alictdNOBau = fastaf.Alignment(aliname="TssM/NOBaumannii.TssM.3.fa")
+Blist = numpy.genfromtxt("TssM/TssM.list.txt",skip_header=1,delimiter=";",dtype=str)
+alictdAci = fastaf.Alignment(aliname="TssM/Acinetobacter.TssM.fa")
+alictdBau = fastaf.Alignment(aliname="TssM/Baumannii.TssM.fa")
+alictdNOBau = fastaf.Alignment(aliname="TssM/NOBaumannii.TssM.fa")
 alisctd = [alictdAci,alictdBau,alictdNOBau]
 alisnames = ["Acinetobacter","Baumannii","NOBaumannii"]
 
 #Output data
-fA = open("TssMctd/GXXXGXXXG.Acineto.3.txt","w")
-fB = open("TssMctd/GXXXGXXXG.Baumannii.3.txt","w")
-fN = open("TssMctd/GXXXGXXXG.NOBaumannii.3.txt","w")
+fA = open("TssMctd/GXXXGXXXG.Acineto.txt","w")
+fB = open("TssMctd/GXXXGXXXG.Baumannii.txt","w")
+fN = open("TssMctd/GXXXGXXXG.NOBaumannii.txt","w")
 files = [fA,fB,fN]
 
 for j,alictd in enumerate(alisctd):

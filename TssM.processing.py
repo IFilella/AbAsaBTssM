@@ -28,12 +28,12 @@ queryTssK = "data/TssK/Ab.TssK.fa"
 queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
 
 #Output Data
-fanalysis = open("TssM/TssM.list.3.txt","w")
+fanalysis = open("TssM/TssM.list.txt","w")
 fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ,TssB,TssK\n")
-ftssm = open("TssM/Acinetobacter.TssM.3.fa","w")
-fasab = open("TssM/Acinetobacter.AsaB.3.fa","w")
-ftssb = open("TssM/Acinetobacter.TssB.3.fa","w")
-ftssk = open("TssM/Acinetobacter.TssK.3.fa","w")
+ftssm = open("TssM/Acinetobacter.TssM.fa","w")
+fasab = open("TssM/Acinetobacter.AsaB.fa","w")
+ftssb = open("TssM/Acinetobacter.TssB.fa","w")
+ftssk = open("TssM/Acinetobacter.TssK.fa","w")
 
 
 def get_protein(query,taxid,protname,eth,cth,fout,organism):
