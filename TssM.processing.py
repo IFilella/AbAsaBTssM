@@ -10,16 +10,16 @@ taxids = glob.glob("genomesTssM/*")
 orgdb = "/work/ifilella/uniref90/names.dmp"
 genestinf = 500
 genestsup = 8000
-etTssM = 1e-30
+etTssM = 1e-20
 coveragetTssM = 0.6
-etAsaB = 1e-30
+etAsaB = 1e-20
 coveragetAsaB = 0.6
-etTssJ = 1e-30
-minltTssJ = 200
-maxltTssJ = 700
-etTssB = 1e-30
+etTssJ = 1e-20
+minltTssJ = 100
+maxltTssJ = 500
+etTssB = 1e-20
 coveragetTssB = 0.6
-etTssK = 1e-30
+etTssK = 1e-20
 coveragetTssK = 0.6
 queryAsaB = "/work/ifilella/AbAsaBTssM/data/AsaB/Ab.AsaB.fa"
 queryTssM = "/work/ifilella/AbAsaBTssM/data/TssM/Ab.TssM.fa"
@@ -28,12 +28,12 @@ queryTssK = "/work/ifilella/AbAsaBTssM/data/TssK/Ab.TssK.fa"
 queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
 
 #Output Data
-fanalysis = open("TssM/TssM.list.2.txt","w")
+fanalysis = open("TssM/TssM.list.3.txt","w")
 fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ,TssB,TssK\n")
-ftssm = open("TssM/Acinetobacter.TssM.2.fa","w")
-fasab = open("TssM/Acinetobacter.AsaB.2.fa","w")
-ftssb = open("TssM/Acinetobacter.TssB.2.fa","w")
-ftssk = open("TssM/Acinetobacter.TssK.2.fa","w")
+ftssm = open("TssM/Acinetobacter.TssM.3.fa","w")
+fasab = open("TssM/Acinetobacter.AsaB.3.fa","w")
+ftssb = open("TssM/Acinetobacter.TssB.3.fa","w")
+ftssk = open("TssM/Acinetobacter.TssK.3.fa","w")
 
 
 def get_protein(query,taxid,protname,eth,cth,fout,organism):

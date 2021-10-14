@@ -7,15 +7,21 @@ import datetime
 import closeness
 import numpy as np
 
+def autolabel(rects):
+    for rect in rects:
+        h = rect.get_height()
+        ax.text(rect.get_x()+rect.get_width()/2., 1.01*h, '%.3f'%float(h),
+                ha='center', va='bottom')
+
 #Input Data
 genestinf = 500
 genestsup = 8000
 taxids = glob.glob("genomesTssM/*")
 count = 0
-tssmlist = numpy.genfromtxt("TssM/TssM.list.2.txt",delimiter=";",skip_header=1,dtype=str)
-tssmseqs = fastaf.Alignment("/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.fasta")
-"""
-#Get total genes per genome
+tssmlist = numpy.genfromtxt("TssM/TssM.list.3.txt",delimiter=";",skip_header=1,dtype=str)
+tssmseqs = fastaf.Alignment("/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.3.fa")
+
+#Get total mean+-std genes per genome
 totalgenes = []
 totaltaxs = []
 for taxid in taxids:
@@ -28,10 +34,9 @@ for taxid in taxids:
         totaltaxs.append(tax)
 
 totalgenes, totaltaxs = zip(*sorted(zip(totalgenes, totaltaxs)))
-print(list(zip(totalgenes,totaltaxs)))
-print(len(totalgenes))
-print(numpy.mean(totalgenes))
-print(numpy.std(totalgenes))
+genetax = list(zip(totalgenes,totaltaxs))
+print("Total genomes: " + str(len(totalgenes)))
+print("Mean+-std genes per genome: " + str(numpy.mean(totalgenes)) + " +- " + str(numpy.std(totalgenes)))
 
 #Plot total genes per genome
 totalgenes = numpy.asarray(totalgenes)
@@ -39,27 +44,22 @@ plt.figure()
 plt.hist(totalgenes, bins=25,density=False,rwidth=0.93)
 plt.xlabel("Number of genes")
 plt.ylabel("Frequency")
-plt.savefig("Acinetobacter_hist.png")
+plt.savefig("pictures/Acinetobacter_hist.png")
 plt.show()
 
 #Get % of TssM,TssJ and AsaB
-tssms = tssmlist[:,2]
-tssms = tssms.astype(int)
-asabs = tssmlist[:,3]
-asabs = asabs.astype(int)
-tssjs = tssmlist[:,4]
-tssjs = tssjs.astype(int)
-tssbs = tssmlist[:,5]
-tssbs = tssbs.astype(int)
-tssks = tssmlist[:,6]
-tssks = tssks.astype(int)
+tssms = tssmlist[:,2].astype(int)
+asabs = tssmlist[:,3].astype(int)
+tssjs = tssmlist[:,4].astype(int)
+tssbs = tssmlist[:,5].astype(int)
+tssks = tssmlist[:,6].astype(int)
 total = len(tssms)
 totalm = sum(tssms)
 totalasab = sum(asabs)
 totalj = sum(tssjs)
 totalb = sum(tssbs)
 totalk = sum(tssks)
-print(total,totalm,totalasab,totalj,totalb,totalk)
+print("Total genomes: " + str(total) + "\nTotal TssM: " + str(totalm) + "\nTotal AsaB: " + str(totalasab) + "\nTotal TssJ: " + str(totalj) + "\nTotal TssB: " + str(totalb) + "\nTotal TssM: " + str(totalk))
 counts = [0,0,0,0]
 for line in tssmlist:
     if line[5] == "0": continue
@@ -67,26 +67,26 @@ for line in tssmlist:
     elif line[2] == "0" and line[3] == "1": counts[1]+=1
     elif line[2] == "1" and line[3] == "0": counts[2]+=1
     elif line[2] == "0" and line[3] == "0": counts[3]+=1
-print(counts)
-print(sum(counts))
+print("Total genomes after TssB filter: " + str(sum(counts)))
+print("+TssM+AsaB: %d\n-TssM+AsaB: %d\n+TssM-AsaB: %d\n-TssM-AsaB: %d"%(counts[0],counts[1],counts[2],counts[3]))
 
 #Get average length of TssM sequences
 aux = []
 for seq in tssmseqs.seqs:
-    print(len(seq))
     aux.append(len(seq))
 aux = numpy.asarray(aux)
-print(numpy.mean(aux))
+print("TssM mean lenght: " + str(numpy.mean(aux)))
+
 
 # Get the conservation level of M, AsaB, B and K for A.b and Acinetonacter spp
-aliAciM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.2.aln")
-aliAciA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.AsaB.2.aln")
-aliAciB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssB.2.aln")
-aliAciK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssK.2.aln")
-aliAbM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssM.2.aln")
-aliAbA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.AsaB.2.aln")
-aliAbB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssB.2.aln")
-aliAbK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssK.2.aln")
+aliAciM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.3.aln")
+aliAciA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.AsaB.3.aln")
+aliAciB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssB.3.aln")
+aliAciK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssK.3.aln")
+aliAbM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssM.3.aln")
+aliAbA = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.AsaB.3.aln")
+aliAbB = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssB.3.aln")
+aliAbK = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Baumannii.TssK.3.aln")
 
 x = ["TssM","AsaB","TssB","TssK"]
 y = []
@@ -119,15 +119,8 @@ ax.set_xticklabels(x)
 ax.legend( (rects1[0], rects2[0]), legend, bbox_to_anchor=(0,1.02,1,0.2), loc="lower left",
                 mode="expand", borderaxespad=1, ncol=2)
 
-def autolabel(rects):
-    for rect in rects:
-        h = rect.get_height()
-        ax.text(rect.get_x()+rect.get_width()/2., 1.01*h, '%.3f'%float(h),
-                ha='center', va='bottom')
-
 autolabel(rects1)
 autolabel(rects2)
-plt.savefig("conservation.png")
-plt.savefig("conservation.pdf")
+plt.savefig("pictures/conservation.png")
+plt.savefig("pictures/conservation.pdf")
 plt.show()
-"""

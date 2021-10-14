@@ -6,8 +6,10 @@ import matplotlib.pyplot
 import matplotlib.ticker
 import pylab
 
-homologs = numpy.genfromtxt("AsaB/AsaB.2.txt",delimiter=";",skip_header=1,dtype=str)
+#Input data
+homologs = numpy.genfromtxt("AsaB/AsaB.3.txt",delimiter=";",skip_header=1,dtype=str)
 
+#Output data
 count=0
 cleanhomols = []
 evalues = []
@@ -46,13 +48,13 @@ tssjs = list(map(bool,tssjs))
 
 dfhomols = pd.DataFrame({"Identifier": identifiers, "Evalue": evalues, "Coverage": coverages, "Phylum": labels, "TssM": tssms, "TssJ": tssjs})
 dfhomolsg = dfhomols.groupby("Phylum")
-print(dfhomols)
-print(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") ])
-print(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") & (dfhomols['TssM'] == True)])
-print(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") & (dfhomols['TssJ'] == True)])
-print(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") ])
-print(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") & (dfhomols['TssM'] == True)])
-print(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") & (dfhomols['TssJ'] == True)])
+print("Total number of AsaB with a unique genome associated: " + str(len(dfhomols)))
+print("Acinetobacter genomes with an AsaB homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") ])))
+print("Acinetobacter genomes with an AsaB homolog and a TssM homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") & (dfhomols['TssM'] == True)])))
+print("Acinetobacter genomes with an AsaB homolog and a TssJ homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] == "Acinetobacter") & (dfhomols['TssJ'] == True)])))
+print("Non Acinetobacter genomes with an AsaB homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") ])))
+print("Non Acinetobacter genomes with an AsaB homolog and a TssM homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") & (dfhomols['TssM'] == True)])))
+print("Non Acinetobacter genomes with an AsaB homolog and a TssJ homolog: " + str(len(dfhomols.loc[(dfhomols['Phylum'] != "Acinetobacter") & (dfhomols['TssJ'] == True)])))
 plt.figure()
 ax = plt.gca()
 for name, homol in dfhomolsg:
@@ -63,6 +65,6 @@ ax.set_ylabel('Coverage')
 plt.title("AsaB homologs: E-value against Coverage")
 plt.legend()
 pylab.tight_layout()
-plt.savefig("evaluecoverage.png")
-plt.savefig("evaluecoverage.pdf")
+plt.savefig("pictures/evaluecoverage.png")
+plt.savefig("pictures/evaluecoverage.pdf")
 plt.show()

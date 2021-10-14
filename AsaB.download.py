@@ -30,18 +30,18 @@ tssms = glob.glob("data/TssM/*.TssM.fa")
 tssjs = glob.glob("data/TssJ/*.TssJ.fa")
 tssbs = glob.glob("data/TssB/*.TssB.fa")
 tssks = glob.glob("data/TssK/*.TssK.fa")
-ettssm = 1e-40
+ettssm = 1e-20
 lttssm = [700,1500]
-ettssj = 1e-30
-lttssj = [200,700]
-ettssb = 1e-30
+ettssj = 1e-20
+lttssj = [100,500]
+ettssb = 1e-20
 lttssb = [100,250]
-ettssk = 1e-30
+ettssk = 1e-20
 lttssk = [300,650]
 homologs = "AsaB/Ab.AsaB.fa"
 
 #Output Data
-f = open('AsaB/AsaB.2.txt',"w")
+f = open('AsaB/AsaB.3.txt',"w")
 f.write("Homolog;Evalue;Coverage;TaxID;Organism;M;J;B;K\n")
 titles = []
 coverages = []
@@ -125,8 +125,8 @@ for i,homol in enumerate(homols.homolseqs):
                     #Empty genome
                     presenceM="Error6"
                     presenceJ="Error6"
-                    presenceB="Error5"
-                    presenceK="Error5"
+                    presenceB="Error6"
+                    presenceK="Error6"
                 else:
                     search.make_blastdb("genomesAsaB/%s/%s.fasta"%(taxid,taxid),"genomesAsaB/%s/%s"%(taxid,taxid))
                     blastdb = "genomesAsaB/%s/%s"%(taxid,taxid)
