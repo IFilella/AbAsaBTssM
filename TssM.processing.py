@@ -5,38 +5,7 @@ import subprocess
 import math
 import os
 
-#Input Data
-taxids = glob.glob("genomesTssM/*")
-orgdb = "/work/ifilella/uniref90/names.dmp"
-genestinf = 500
-genestsup = 8000
-etTssM = 1e-20
-coveragetTssM = 0.6
-etAsaB = 1e-20
-coveragetAsaB = 0.6
-etTssJ = 1e-20
-minltTssJ = 100
-maxltTssJ = 500
-etTssB = 1e-20
-coveragetTssB = 0.6
-etTssK = 1e-20
-coveragetTssK = 0.6
-queryAsaB = "data/AsaB/Ab.AsaB.fa"
-queryTssM = "data/TssM/Ab.TssM.fa"
-queryTssB = "data/TssB/Ab.TssB.fa"
-queryTssK = "data/TssK/Ab.TssK.fa"
-queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
-
-#Output Data
-fanalysis = open("TssM/TssM.list.txt","w")
-fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ,TssB,TssK\n")
-ftssm = open("TssM/Acinetobacter.TssM.fa","w")
-fasab = open("TssM/Acinetobacter.AsaB.fa","w")
-ftssb = open("TssM/Acinetobacter.TssB.fa","w")
-ftssk = open("TssM/Acinetobacter.TssK.fa","w")
-
-
-def get_protein(query,taxid,protname,eth,cth,fout,organism):
+def get_protein(query,taxid,blastdb,protname,eth,cth,fout,organism):
     tax = taxid.split("/")[1]
     queryseq = fastaf.fastaf(query).homolseqs[0].seq
     #Look for protein homologs#
@@ -70,6 +39,35 @@ def get_protein(query,taxid,protname,eth,cth,fout,organism):
         presence = "0"
     return presence
 
+#Input Data
+taxids = glob.glob("genomesTssM/*")
+orgdb = "/work/ifilella/uniref90/names.dmp"
+genestinf = 500
+genestsup = 8000
+etTssM = 1e-20
+coveragetTssM = 0.6
+etAsaB = 1e-20
+coveragetAsaB = 0.6
+etTssJ = 1e-20
+minltTssJ = 100
+maxltTssJ = 500
+etTssB = 1e-20
+coveragetTssB = 0.6
+etTssK = 1e-20
+coveragetTssK = 0.6
+queryAsaB = "data/AsaB/Ab.AsaB.fa"
+queryTssM = "data/TssM/Ab.TssM.fa"
+queryTssB = "data/TssB/Ab.TssB.fa"
+queryTssK = "data/TssK/Ab.TssK.fa"
+queriesTssJ = glob.glob("data/TssJ/*.TssJ.fa")
+
+#Output Data
+fanalysis = open("TssM/TssM.list.txt","w")
+fanalysis.write("TaxID,Organism,TssM,AsaB,TssJ,TssB,TssK\n")
+ftssm = open("TssM/Acinetobacter.TssM.fa","w")
+fasab = open("TssM/Acinetobacter.AsaB.fa","w")
+ftssb = open("TssM/Acinetobacter.TssB.fa","w")
+ftssk = open("TssM/Acinetobacter.TssK.fa","w")
 
 count = 0
 totalgenes = []
@@ -91,10 +89,10 @@ for taxid in taxids:
             organism="Error4"
         blastdb = "%s/%s"%(taxid,tax)
 
-        presenceM = get_protein(query=queryTssM,taxid=taxid,protname="TssM",eth=etTssM,cth=coveragetTssM,fout=ftssm,organism=organism)
-        presenceA = get_protein(query=queryAsaB,taxid=taxid,protname="AsaB",eth=etAsaB,cth=coveragetAsaB,fout=fasab,organism=organism)
-        presenceB = get_protein(query=queryTssB,taxid=taxid,protname="TssB",eth=etTssB,cth=coveragetTssB,fout=ftssb,organism=organism)
-        presenceK = get_protein(query=queryTssK,taxid=taxid,protname="TssK",eth=etTssK,cth=coveragetTssK,fout=ftssk,organism=organism)        
+        presenceM = get_protein(query=queryTssM,taxid=taxid,blastdb=blastdb,protname="TssM",eth=etTssM,cth=coveragetTssM,fout=ftssm,organism=organism)
+        presenceA = get_protein(query=queryAsaB,taxid=taxid,blastdb=blastdb,protname="AsaB",eth=etAsaB,cth=coveragetAsaB,fout=fasab,organism=organism)
+        presenceB = get_protein(query=queryTssB,taxid=taxid,blastdb=blastdb,protname="TssB",eth=etTssB,cth=coveragetTssB,fout=ftssb,organism=organism)
+        presenceK = get_protein(query=queryTssK,taxid=taxid,blastdb=blastdb,protname="TssK",eth=etTssK,cth=coveragetTssK,fout=ftssk,organism=organism)        
 
         ##Look for TssJ homologs##
         for TssJ in queriesTssJ:

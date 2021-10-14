@@ -7,23 +7,24 @@ import glob
 import search
 import subprocess
 
-def do_proteinCheck(protname,queries,ethr,lthr):
+def do_proteinCheck(taxid,blastdb,protname,queries,ethr,lthr):
     #Look for protein homologous from a query list 'queries'
     for query in queries:
         out = query.split("/")[-1].split(".")[0]
-        search.blastp(db=blastdb,query=query,out="genomesTssMctd/%s/%s.%s.blasted"%(taxid,protname,out))
-    catcommand = "cat genomesTssMctd/%s/%s.*.blasted > genomesTssMctd/%s/%s.blasted"%(taxid,protname,taxid,protname)
+        search.blastp(db=blastdb,query=query,out="%s/%s.%s.blasted"%(taxid,protname,out))
+    catcommand = "cat %s/%s.*.blasted > %s/%s.blasted"%(taxid,protname,taxid,protname)
     os.system(catcommand)
 
     #Filter by evalue and lenght and convert to fasta
-    search.filter_blastp_search("genomesTssMctd/%s/%s.blasted"%(taxid,protname),"genomesTssMctd/%s/%s.f.blasted"%(taxid,protname),evalue=ethr,lenght=lthr)
-    search.get_fasta_from_blasted("genomesTssMctd/%s/%s.f.blasted"%(taxid,protname),"genomesTssMctd/%s/%s.f.fa"%(taxid,protname))
-    output = subprocess.run("wc genomesTssMctd/%s/%s.f.fa"%(taxid,protname),shell=True,capture_output=True)
+    search.filter_blastp_search("%s/%s.blasted"%(taxid,protname),"%s/%s.f.blasted"%(taxid,protname),evalue=ethr,lenght=lthr)
+    search.get_fasta_from_blasted("%s/%s.f.blasted"%(taxid,protname),"%s/%s.f.fa"%(taxid,protname))
+    output = subprocess.run("wc %s/%s.f.fa"%(taxid,protname),shell=True,capture_output=True)
     aux = str(output.stdout).split("\'")[1].split()[0]
     if int(aux) > 0: presence = "1"
     else: presence = "0"
     return presence
 
+"""
 ###Add Organism and TaxID to each sequence title###
 
 #Input data
@@ -81,7 +82,7 @@ for i,name in enumerate(aliMctd.names):
         f.write(">%s|%s|%s\n"%(name,organism.replace(" ","_"),taxid))
         f.write("%s\n"%aliMctd.seqs[i])
 f.close()
-
+"""
 ###Find GXXGXXXG pattern on non Acinetobacter TssMctd###
 
 #Input data
@@ -93,10 +94,12 @@ tssjs  = glob.glob("data/TssJ/*.TssJ.fa")
 ettssb = 1e-20
 lttssb = [100,250]
 tssbs = glob.glob("data/TssB/*.TssB.fa")
+queryAsaB = "data/AsaB/Ab.AsaB.fa"
+genomes = "genomesTssMctd/" 
 
 #Output data
 f = open("TssMctd/GXXXGXXXG.noAcineto.txt","w")
-f.write("GxxxGxxxG;key;organism;taxid;B;J\n")
+f.write("GxxxGxxxG;key;organism;taxid;B;J;AsaB\n")
 
 for i,name in enumerate(alictd.names):
     print("-----------------------------------------------------------------")
@@ -125,22 +128,22 @@ for i,name in enumerate(alictd.names):
         presenceJ = "Error5"
         presenceB = "Error5"
     else:
-        if not os.path.isdir("genomesTssMctd/%s"%taxid):
-            os.system("mkdir genomesTssMctd/%s"%taxid)
-        if os.path.isfile("genomesTssMctd/%s/%s.fasta"%(taxid,taxid))==True:
+        if not os.path.isdir("%s%s"%(genomes,taxid)):
+            os.system("mkdir %s%s"%(genomes,taxid))
+        if os.path.isfile("%s%s/%s.fasta"%(genomes,taxid,taxid))==True:
             pass
         else:
-            search.get_genome(taxid,"genomesTssMctd/%s/%s.fasta"%(taxid,taxid))
-        if os.stat("genomesTssMctd/%s/%s.fasta"%(taxid,taxid)).st_size == 0:
+            search.get_genome(taxid,"%s%s/%s.fasta"%(genomes,taxid,taxid))
+        if os.stat("%s%s/%s.fasta"%(genomes,taxid,taxid)).st_size == 0:
             #Empty genome
             presenceJ = "Error6"
             presenceB = "Error6"
         else:
-            search.make_blastdb("genomesTssMctd/%s/%s.fasta"%(taxid,taxid),"genomesTssMctd/%s/%s"%(taxid,taxid))
-            blastdb = "genomesTssMctd/%s/%s"%(taxid,taxid)
+            search.make_blastdb("%s%s/%s.fasta"%(genomes,taxid,taxid),"%s%s/%s"%(genomes,taxid,taxid))
+            blastdb = "%s%s/%s"%(genomes,taxid,taxid)
             #Look for TssJ homologs
-            presenceJ = do_proteinCheck("TssJ",tssjs,ettssj,lttssj)
-            presenceB = do_proteinCheck("TssB",tssbs,ettssb,lttssb)
+            presenceJ = do_proteinCheck(taxid=genomes+taxid,blastdb,"TssJ",tssjs,ettssj,lttssj)
+            presenceB = do_proteinCheck(taxid=genomes+taxid,blastdb,"TssB",tssbs,ettssb,lttssb)
 
     #Found the pattern on the sequence
     patterns1 = re.findall('G..G..G',unaliseq[-100:])
