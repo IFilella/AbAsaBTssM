@@ -6,6 +6,7 @@ import os
 import glob
 import search
 import subprocess
+import math
 
 def do_proteinCheck(taxid,blastdb,protname,queries,ethr,lthr):
     #Look for protein homologous from a query list 'queries'
@@ -22,6 +23,40 @@ def do_proteinCheck(taxid,blastdb,protname,queries,ethr,lthr):
     aux = str(output.stdout).split("\'")[1].split()[0]
     if int(aux) > 0: presence = "1"
     else: presence = "0"
+    return presence
+
+def get_protein(query,taxid,blastdb,protname,eth,cth,fout,organism):
+    tax = taxid.split("/")[1]
+    queryseq = fastaf.fastaf(query).homolseqs[0].seq
+    #Look for protein homologs#
+    blasted = "%s/%s.Ab.blasted"%(taxid,protname)
+    search.blastp(db=blastdb,query=query,out=blasted)
+    #Apply a first filter based on e-value
+    blastedf = "%s/%s.Ab.f.blasted"%(taxid,protname)
+    search.filter_blastp_search(blasted,blastedf,evalue=eth)
+    #Check that after the first filter there still are protein homologs and apply second coverage filter
+    aux = search.get_lines(blastedf)
+    if int(aux) > 0:
+        search.filter_blastp_bycoverage(queryseq,blastedf,cth,blastedf)
+        aux = search.get_lines(blastedf)
+        if int(aux) > 0:
+            fafile = "%s/%s.Ab.f.fa"%(taxid,protname)
+            search.get_fasta_from_blasted(blastedf,fafile)
+            presence = "1"
+            #Get the homolog with the lowest evalue
+            homols = fastaf.fastaf(fafile,searchtool="blastp").homolseqs
+            eaux = math.inf
+            prothomol = None
+            for homol in homols:
+                if homol.evalue < eaux:
+                    eaux = homol.evalue
+                    prothomol = homol.seq
+            fout.write(">%s_%s\n"%(organism.replace(" ","_"),tax))
+            fout.write("%s\n"%prothomol)
+        else:
+            presence = "0"
+    else:
+        presence = "0"
     return presence
 
 """
@@ -95,11 +130,14 @@ ettssb = 1e-20
 lttssb = [100,250]
 tssbs = glob.glob("data/TssB/*.TssB.fa")
 queryAsaB = "data/AsaB/Ab.AsaB.fa"
+etAsaB = 1e-20
+coveragetAsaB = 0.6
 genomes = "genomesTssMctd/" 
 
 #Output data
 f = open("TssMctd/GXXXGXXXG.noAcineto.txt","w")
 f.write("GxxxGxxxG;key;organism;taxid;B;J;AsaB\n")
+fasab = open("TssMctd/NOAcinetobacter.AsaB.fa","w")
 
 for i,name in enumerate(alictd.names):
     print("-----------------------------------------------------------------")
@@ -127,6 +165,7 @@ for i,name in enumerate(alictd.names):
         # Not a leave TaxID can't recover a genome
         presenceJ = "Error5"
         presenceB = "Error5"
+        presenceA = "Error5"
     else:
         if not os.path.isdir("%s%s"%(genomes,taxid)):
             os.system("mkdir %s%s"%(genomes,taxid))
@@ -138,12 +177,14 @@ for i,name in enumerate(alictd.names):
             #Empty genome
             presenceJ = "Error6"
             presenceB = "Error6"
+            presenceA = "Error6"
         else:
             search.make_blastdb("%s%s/%s.fasta"%(genomes,taxid,taxid),"%s%s/%s"%(genomes,taxid,taxid))
             blastdb = "%s%s/%s"%(genomes,taxid,taxid)
             #Look for TssJ homologs
-            presenceJ = do_proteinCheck(taxid=genomes+taxid,blastdb,"TssJ",tssjs,ettssj,lttssj)
-            presenceB = do_proteinCheck(taxid=genomes+taxid,blastdb,"TssB",tssbs,ettssb,lttssb)
+            presenceJ = do_proteinCheck(genomes+taxid,blastdb,"TssJ",tssjs,ettssj,lttssj)
+            presenceB = do_proteinCheck(genomes+taxid,blastdb,"TssB",tssbs,ettssb,lttssb)
+            presenceA = get_protein(query=queryAsaB,taxid=genomes+taxid,blastdb=blastdb,protname="AsaB",eth=etAsaB,cth=coveragetAsaB,fout=fasab,organism=organism)   
 
     #Found the pattern on the sequence
     patterns1 = re.findall('G..G..G',unaliseq[-100:])
@@ -152,9 +193,10 @@ for i,name in enumerate(alictd.names):
     patterns4 = re.findall('G...G..G',unaliseq[-100:])
     patterns = patterns1 + patterns2 + patterns3 + patterns4
     if len(patterns)>0:
-        print("%s;%s;%s;%s;%s;%s\n"%('_'.join(patterns),key,organism,taxid,presenceB,presenceJ))
-        f.write("%s;%s;%s;%s;%s;%s\n"%('_'.join(patterns),key,organism,taxid,presenceB,presenceJ))
+        print("%s;%s;%s;%s;%s;%s;%s\n"%('_'.join(patterns),key,organism,taxid,presenceB,presenceJ,presenceA))
+        f.write("%s;%s;%s;%s;%s;%s;%s\n"%('_'.join(patterns),key,organism,taxid,presenceB,presenceJ,presenceA))
     else:
-        print("NO;%s;%s;%s;%s;%s\n"%(key,organism,taxid,presenceB,presenceJ))
-        f.write("NO;%s;%s;%s;%s;%s\n"%(key,organism,taxid,presenceB,presenceJ))
+        print("NO;%s;%s;%s;%s;%s;%s\n"%(key,organism,taxid,presenceB,presenceJ,presenceA))
+        f.write("NO;%s;%s;%s;%s;%s;%s\n"%(key,organism,taxid,presenceB,presenceJ,presenceA))
+fasab.close()
 f.close()

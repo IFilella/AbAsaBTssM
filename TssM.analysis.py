@@ -12,7 +12,6 @@ def autolabel(rects):
         h = rect.get_height()
         ax.text(rect.get_x()+rect.get_width()/2., 1.01*h, '%.3f'%float(h),
                 ha='center', va='bottom')
-
 #Input Data
 genestinf = 500
 genestsup = 8000
@@ -76,7 +75,6 @@ for seq in tssmseqs.seqs:
     aux.append(len(seq))
 aux = numpy.asarray(aux)
 print("TssM mean lenght: " + str(numpy.mean(aux)))
-
 
 # Get the conservation level of M, AsaB, B and K for A.b and Acinetonacter spp
 aliAciM = fastaf.Alignment(aliname="/work/ifilella/AbAsaBTssM/TssM/Acinetobacter.TssM.aln")
